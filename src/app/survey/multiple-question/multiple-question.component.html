@@ -1,0 +1,39 @@
+<p>multiple-question works!</p>
+<!--<ul>
+  <li *ngFor="let answers of currentQuestion?.surveyQuestionAnswers">
+    <a href="javascript:void(0);">{{answers.value | titlecase}}</a>
+  </li>
+</ul>-->
+<style>
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+</style>
+
+
+
+<h2>Multiple Questions</h2>
+
+<table>
+  <tr>
+    <th>Question</th>
+    <th>Answer</th>
+  </tr>
+  <tr *ngFor="let questions of currentQuestion">
+    <td>{{ questions?.questionReferenceId }}</td>
+    <td>{{ questions?.surveyQuestionAnswers[0].value  }}</td>
+  </tr>
+
+</table>

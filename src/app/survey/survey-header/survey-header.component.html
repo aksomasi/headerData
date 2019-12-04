@@ -1,0 +1,17 @@
+<div class="row question">
+  <div class="col-md-12">
+    <i class="icon-section pull-left {{iconImage}}"></i>
+    <h3>{{getQuestionLabel(question) | translate}}</h3>
+    <div class="instructionReason" *ngIf="instruction">
+      <h4 ng-class="{'hidden-xs hidden-sm': hideInstructionsForMobile}">
+        {{instruction}}
+      </h4>
+    </div>
+    <div class="instructionReason" *ngIf="reason">
+      <h5 ng-class="{'hidden-xs hidden-sm':hideReasonForMobile}" class="reason" (click)="reasons()">
+        <i class="fa fa-question-circle margin-right-10"></i>
+        {{reason}}
+      </h5>
+    </div>
+  </div>
+</div>

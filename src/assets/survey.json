@@ -1,0 +1,5641 @@
+[
+  {
+    "categoryId":  1,
+    "name": "Personal",
+    "imageCssClass" : "src/external/secure/libs/hra/shared/assests/images/category/personal-info-small.jpg",
+    "surveyPages" : [
+      {
+        "pageId": 1,
+        "surveyPageReferenceId" : "survey:personal:phone",
+        "imageCssClass": "",
+        "animatedImageCssClass" : "phone",
+        "hasAnimatedView": true,
+        "displayOrder": 1,
+        "clientRestrictions": [
+          {
+            "clientId": "",
+            "accountNumbers":[
+            ]
+          }
+        ],
+        "surveyQuestions": [
+          {
+            "id" : 1,
+            "questionReferenceId": "survey:personal:phone:areaCode",
+            "displayOrder": 1,
+            "answerDisplayCode": 1,
+            "surveyQuestionAnswers": [
+              {
+                "id": 1,
+                "value": "fieldInset1",
+                "displayIdkModal": false,
+                "dataType": 1,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": [
+                  1,2
+                ]
+              }
+            ]
+          },
+          {
+            "id" : 2,
+            "questionReferenceId": "survey:personal:phone:exchange",
+            "displayOrder": 2,
+            "answerDisplayCode": 1,
+            "surveyQuestionAnswers": [
+              {
+                "id": 2,
+                "value": "fieldInset2",
+                "displayIdkModal": false,
+                "dataType": 1,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          },
+          {
+            "id" : 3,
+            "questionReferenceId": "survey:personal:phone:identifier",
+            "displayOrder": 3,
+            "answerDisplayCode": 1,
+            "surveyQuestionAnswers": [
+              {
+                "id": 3,
+                "value": "fieldInset3",
+                "displayIdkModal": false,
+                "dataType": 1,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pageId": 2,
+        "surveyPageReferenceId" : "survey:personal:height",
+        "imageCssClass": "",
+        "animatedImageCssClass" : "",
+        "hasAnimatedView": true,
+        "displayOrder": 3,
+        "clientRestrictions": [
+          {
+            "clientId": "",
+            "accountNumbers":[
+            ]
+          }
+        ],
+        "surveyQuestions": [
+          {
+            "id" : 4,
+            "questionReferenceId": "survey:personal:height:inches",
+            "displayOrder": 1,
+            "answerDisplayCode": 1,
+            "surveyQuestionAnswers": [
+              {
+                "id": 4,
+                "value": "inches",
+                "displayIdkModal": false,
+                "dataType": 1,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "PageId": 3,
+        "surveyPageReferenceId" : "survey:personal:weight",
+        "imageCssClass": "weight-png",
+        "animatedImageCssClass" : "weight",
+        "hasAnimatedView": true,
+        "displayOrder": 2,
+        "clientRestrictions": [
+          {
+            "clientId": "",
+            "accountNumbers":[
+            ]
+          }
+        ],
+        "surveyQuestions": [
+          {
+            "id" : 5,
+            "questionReferenceId": "survey:personal:weight",
+            "displayOrder": 1,
+            "answerDisplayCode": 1,
+            "surveyQuestionAnswers": [
+              {
+                "id": 5,
+                "value": "fieldInset",
+                "dispalyIdkModal": false,
+                "dataType": 1,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pageId": 4,
+        "surveyPageReferenceId" : "survey:personal:waist",
+        "imageCssClass": "waist-png",
+        "animatedImageCssClass" : "",
+        "hasAnimatedView": false,
+        "displayOrder": 4,
+        "clientRestrictions": [
+          {
+            "clientId": "",
+            "accountNumbers":[
+            ]
+          }
+        ],
+        "surveyQuestions": [
+          {
+            "id" : 6,
+            "questionReferenceId": "survey:personal:waist",
+            "displayOrder": 1,
+            "answerDisplayCode": 1,
+            "surveyQuestionAnswers": [
+              {
+                "id": 6,
+                "value": "fieldInset",
+                "displayIdkModal": false,
+                "dataType": 1,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pageId": 5,
+        "surveyPageReferenceId" : "survey:personal:weightPlan",
+        "imageCssClass": "exercise-png",
+        "animatedImageCssClass" : "exercise",
+        "hasAnimatedView": false,
+        "displayOrder": 5,
+        "clientRestrictions": [
+          {
+            "clientId": "",
+            "accountNumbers":[
+            ]
+          }
+        ],
+        "surveyQuestions": [
+          {
+            "id" : 7,
+            "questionReferenceId": "survey:personal:weightPlan",
+            "displayOrder": 1,
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 7,
+                "value":"yes",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 8,
+                "value":"no",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 2,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 9,
+                "value":"uncertain",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 3,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 10,
+                "value":"na",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 4,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pageId": 6,
+        "surveyPageReferenceId" : "survey:personal:bloodPressure",
+        "imageCssClass": "",
+        "animatedImageCssClass" : "",
+        "hasAnimatedView": false,
+        "displayOrder": 6,
+        "clientRestrictions": [
+          {
+            "clientId": "",
+            "accountNumbers":[
+            ]
+          }
+        ],
+        "surveyQuestions": [
+          {
+            "id" : 8,
+            "questionReferenceId": "survey:personal:bloodPressure:systolic",
+            "displayOrder": 1,
+            "answerDisplayCode": 1,
+            "surveyQuestionAnswers": [
+              {
+                "id": 11,
+                "value": "fieldInsetSystolic",
+                "displayIdkModal": false,
+                "dataType": 1,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 12,
+                "value":"",
+                "dataType": 1,
+                "displayIdkModal": true,
+                "displayOrder": 2,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          },
+          {
+            "id" : 9,
+            "questionReferenceId": "survey:personal:bloodPressure:diastolic",
+            "displayOrder": 2,
+            "answerDisplayCode": 1,
+            "surveyQuestionAnswers": [
+              {
+                "id": 13,
+                "value":"fieldInsetDiastolic",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 14,
+                "value":"",
+                "dataType": 1,
+                "displayIdkModal": true,
+                "displayOrder": 2,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pageId": 7,
+        "surveyPageReferenceId" : "survey:personal:bloodPressurePlan",
+        "imageCssClass": "bloodPressurePlan-png",
+        "animatedImageCssClass" : "bloodPressurePlan",
+        "hasAnimatedView": false,
+        "displayOrder": 7,
+        "clientRestrictions": [
+          {
+            "clientId": "",
+            "accountNumbers":[
+            ]
+          }
+        ],
+        "surveyQuestions": [
+          {
+            "id" : 10,
+            "questionReferenceId": "survey:personal:bloodPressurePlan",
+            "displayOrder": 1,
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 15,
+                "value":"yes",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 16,
+                "value":"no",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 2,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 17,
+                "value":"uncertain",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 3,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 18,
+                "value":"na",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pageId": 8,
+        "surveyPageReferenceId" : "survey:personal:cholesterol",
+        "imageCssClass": "cholesterol-png",
+        "animatedImageCssClass" : "cholesterol",
+        "hasAnimatedView": false,
+        "displayOrder": 8,
+        "clientRestrictions": [
+          {
+            "clientId": "",
+            "accountNumbers":[
+            ]
+          }
+        ],
+        "surveyQuestions": [
+          {
+            "id" : 11,
+            "questionReferenceId": "survey:personal:cholesterol",
+            "displayOrder": 1,
+            "answerDisplayCode": 1,
+            "surveyQuestionAnswers": [
+              {
+                "id": 19,
+                "dataType": 1,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 20,
+                "value":"",
+                "dataType": 1,
+                "displayIdkModal": true,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pageId": 9,
+        "surveyPageReferenceId" : "survey:personal:hdlCholesterol",
+        "imageCssClass": "hdlCholesterol-png",
+        "animatedImageCssClass" : "hdlCholesterol",
+        "hasAnimatedView": false,
+        "displayOrder": 9,
+        "clientRestrictions": [
+          {
+            "clientId": "",
+            "accountNumbers":[
+            ]
+          }
+        ],
+        "surveyQuestions": [
+          {
+            "id" : 12,
+            "questionReferenceId": "survey:personal:hdlCholesterol",
+            "displayOrder": 1,
+            "answerDisplayCode": 5,
+            "surveyQuestionAnswers": [
+              {
+                "id": 21,
+                "dataType": 1,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+
+            ]
+          },
+          {
+            "id" : 13,
+            "questionReferenceId": "survey:personal:hdlCholesterol1",
+            "displayOrder": 2,
+            "answerDisplayCode": 5,
+            "surveyQuestionAnswers": [
+              {
+                "id": 22,
+                "value":"good",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 23,
+                "value":"bad",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 24,
+                "value":"i_dont_know",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pageId": 10,
+        "surveyPageReferenceId" : "survey:personal:cholesterolPlan",
+        "imageCssClass": "",
+        "animatedImageCssClass" : "",
+        "hasAnimatedView": false,
+        "displayOrder": 10,
+        "clientRestrictions": [
+          {
+            "clientId": "",
+            "accountNumbers":[
+            ]
+          }
+        ],
+        "surveyQuestions": [
+          {
+            "id" : 14,
+            "questionReferenceId": "survey:personal:cholesterolPlan",
+            "displayOrder": 2,
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 25,
+                "value":"yes",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 26,
+                "value":"no",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 27,
+                "value":"uncertain",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 28,
+                "value":"na",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pageId": 11,
+        "surveyPageReferenceId" : "survey:personal:relationshipStatus",
+        "imageCssClass": "",
+        "animatedImageCssClass" : "",
+        
+        "hasAnimatedView": false,
+        "displayOrder": 11,
+        "clientRestrictions": [
+          {
+            "clientId": "",
+            "accountNumbers":[
+            ]
+          }
+        ],
+        "surveyQuestions": [
+          {
+            "id" : 15,
+            "questionReferenceId": "survey:personal:relationshipStatus",
+            "displayOrder": 2,
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 29,
+                "value":"single",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 30,
+                "value":"separated",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 31,
+                "value":"divorced",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 32,
+                "value":"married",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 33,
+                "value":"widowed",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 34,
+                "value":"other",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pageId": 12,
+        "surveyPageReferenceId" : "survey:personal:highestEducationLevel",
+        "imageCssClass": "",
+        "animatedImageCssClass" : "",
+        "hasAnimatedView": false,
+        "displayOrder": 12,
+        "clientRestrictions": [
+          {
+            "clientId": "",
+            "accountNumbers":[
+            ]
+          }
+        ],
+        "surveyQuestions": [
+          {
+            "id" : 16,
+            "questionReferenceId": "survey:personal:highestEducationLevel",
+            "displayOrder": 2,
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 36,
+                "value":"less",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 37,
+                "value":"highSchool",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 38,
+                "value":"someCollege",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 39,
+                "value":"collegeGraduate",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 40,
+                "value":"postGraduate",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pageId": 13,
+        "surveyPageReferenceId" : "survey:personal:houseHoldIncome",
+        "imageCssClass": "",
+        "animatedImageCssClass" : "",
+        "hasAnimatedView": false,
+        "displayOrder": 13,
+        "clientRestrictions": [
+          {
+            "clientId": "",
+            "accountNumbers":[
+            ]
+          }
+        ],
+        "surveyQuestions": [
+          {
+            "id" : 17,
+            "questionReferenceId": "survey:personal:houseHoldIncome",
+            "displayOrder": 2,
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 41,
+                "value":"lessThan35",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 42,
+                "value":"35to49",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 43,
+                "value":"75to99",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 44,
+                "value":"100orMore",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "categoryId":  2,
+    "name": "Life&Work",
+    "imageCssClass" : "src/external/secure/libs/hra/shared/assests/images/category/worklife-small.jpg",
+    "surveyPages" : [
+      {
+        "pageId": 14,
+        "surveyPageReferenceId" : "survey:workLife:lifeSatisfaction",
+        "imageCssClass": "",
+        "animatedImageCssClass" : "",
+        "hasAnimatedView": false,
+        "displayOrder": 1,
+        "clientRestrictions": [
+          {
+            "clientId": "",
+            "accountNumbers":[
+            ]
+          }
+        ],
+        "surveyQuestions": [
+          {
+            "id" : 18,
+            "questionReferenceId": "survey:workLife:lifeSatisfaction",
+            "displayOrder": 1,
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 45,
+                "value":"completelySatisfied",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 46,
+                "value":"mostlySatisfied",
+
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 47,
+                "value":"partlySatisfied",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 48,
+                "value":"notSatisfied",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pageId": 15,
+        "surveyPageReferenceId" : "survey:workLife:social",
+        "imageCssClass": "",
+        "animatedImageCssClass" : "",
+        
+        "hasAnimatedView": false,
+        "displayOrder": 1,
+        "clientRestrictions": [
+          {
+            "clientId": "",
+            "accountNumbers":[
+            ]
+          }
+        ],
+        "surveyQuestions": [
+          {
+            "id" : 19,
+            "questionReferenceId": "survey:workLife:social",
+            "displayOrder": 1,
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 49,
+                "value":"veryStrong",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 50,
+                "value":"aboutAverage",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 51,
+                "value":"weakerThanAverage",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 52,
+                "value":"notSure",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pageId": 16,
+        "surveyPageReferenceId" : "survey:workLife:physicalHealth",
+        "imageCssClass": "",
+        "animatedImageCssClass" : "",
+        "hasAnimatedView": true,
+        "displayOrder": 1,
+        "clientRestrictions": [
+          {
+            "clientId": "",
+            "accountNumbers":[
+            ]
+          }
+        ],
+        "surveyQuestions": [
+          {
+            "id" : 20,
+            "questionReferenceId": "survey:workLife:physicalHealth",
+            "displayOrder": 1,
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 53,
+                "value":"poor",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 54,
+                "value":"fair",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 55,
+                "value":"good",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 56,
+                "value":"veryGood",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 57,
+                "value":"Excellent",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pageId": 17,
+        "surveyPageReferenceId" : "survey:workLife:sleep",
+        "imageCssClass": "",
+        "animatedImageCssClass" : "",
+        "hasAnimatedView": true,
+        "displayOrder": 1,
+        "clientRestrictions": [
+          {
+            "clientId": "",
+            "accountNumbers":[
+            ]
+          }
+        ],
+        "surveyQuestions": [
+          {
+            "id" : 21,
+            "questionReferenceId": "survey:workLife:sleep",
+            "displayOrder": 1,
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 58,
+                "value":"5hoursOrLess",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 59,
+                "value":"6hours",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 60,
+                "value":"7hours",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 61,
+                "value":"8hours",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 62,
+                "value":"9hoursOrMore",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pageId": 18,
+        "surveyPageReferenceId" : "survey:workLife:sleepPlan",
+        "imageCssClass": "",
+        "animatedImageCssClass" : "",
+        "hasAnimatedView": false,
+        "displayOrder": 5,
+        "clientRestrictions": [
+          {
+            "clientId": "",
+            "accountNumbers":[
+            ]
+          }
+        ],
+        "surveyQuestions": [
+          {
+            "id" : 22,
+            "questionReferenceId": "survey:personal:sleepPlan",
+            "displayOrder": 2,
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 63,
+                "value":"yes",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 64,
+                "value":"no",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 65,
+                "value":"uncertain",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 66,
+                "value":"na",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pageId": 19,
+        "surveyPageReferenceId" : "survey:workLife:personalLoss",
+        "imageCssClass": "",
+        "animatedImageCssClass" : "",
+        "hasAnimatedView": false,
+        "displayOrder": 5,
+        "clientRestrictions": [
+          {
+            "clientId": "",
+            "accountNumbers":[
+            ]
+          }
+        ],
+        "surveyQuestions": [
+          {
+            "id" : 23,
+            "questionReferenceId": "survey:workLife:personalLoss",
+            "displayOrder": 2,
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 67,
+                "value":"yesTwoOrMoreEvents",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 68,
+                "value":"yesOneEvent",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 69,
+                "value":"no",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pageId": 20,
+        "surveyPageReferenceId" : "survey:workLife:anxietyDepression",
+        "imageCssClass": "",
+        "animatedImageCssClass" : "",
+        "hasAnimatedView": false,
+        "displayOrder": 5,
+        "clientRestrictions": [
+          {
+            "clientId": "",
+            "accountNumbers":[
+            ]
+          }
+        ],
+        "surveyQuestions": [
+          {
+            "id" : 24,
+            "questionReferenceId": "survey:workLife:anxietyDepression",
+            "displayOrder": 2,
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 70,
+                "value":"often",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 71,
+                "value":"sometimes",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 72,
+                "value":"rarely",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 73,
+                "value":"never",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pageId": 21,
+        "surveyPageReferenceId" : "survey:workLife:stress",
+        "imageCssClass": "",
+        "animatedImageCssClass" : "",
+        "hasAnimatedView": false,
+        "displayOrder": 5,
+        "clientRestrictions": [
+          {
+            "clientId": "",
+            "accountNumbers":[
+            ]
+          }
+        ],
+        "surveyQuestions": [
+          {
+            "id" : 25,
+            "questionReferenceId": "survey:workLife:stress",
+            "displayOrder": 2,
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 74,
+                "value":"aLot",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 75,
+                "value":"sometimes",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 76,
+                "value":"hardlyAny",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 77,
+                "value":"itHasntAffectedItAtAll",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pageId": 21,
+        "surveyPageReferenceId" : "survey:workLife:stressPlan",
+        "imageCssClass": "",
+        "animatedImageCssClass" : "",
+        "hasAnimatedView": false,
+        "displayOrder": 5,
+        "clientRestrictions": [
+          {
+            "clientId": "",
+            "accountNumbers":[
+            ]
+          }
+        ],
+        "surveyQuestions": [
+          {
+            "id" : 26,
+            "questionReferenceId": "survey:personal:stressPlan",
+            "displayOrder": 2,
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 78,
+                "value":"yes",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 79,
+                "value":"no",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 80,
+                "value":"uncertain",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 81,
+                "value":"na",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pageId": 22,
+        "surveyPageReferenceId" : "survey:personal:employment",
+        "imageCssClass": "",
+        "animatedImageCssClass" : "",
+        "hasAnimatedView": false,
+        "displayOrder": 5,
+        "clientRestrictions": [
+          {
+            "clientId": "",
+            "accountNumbers":[
+            ]
+          }
+        ],
+        "surveyQuestions": [
+          {
+            "id" : 27,
+            "questionReferenceId": "survey:personal:employment",
+            "displayOrder": 2,
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 82,
+                "value":"yes",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 83,
+                "value":"no",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pageId": 23,
+        "surveyPageReferenceId" : "survey:workLife:jobSatisfaction",
+        "imageCssClass": "",
+        "animatedImageCssClass" : "",
+        "hasAnimatedView": false,
+        "displayOrder": 1,
+        "clientRestrictions": [
+          {
+            "clientId": "",
+            "accountNumbers":[
+            ]
+          }
+        ],
+        "surveyQuestions": [
+          {
+            "id" : 28,
+            "questionReferenceId": "survey:workLife:jobSatisfaction",
+            "displayOrder": 1,
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 84,
+                "value":"completelySatisfied",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 85,
+                "value":"mostlySatisfied",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 86,
+                "value":"partlySatisfied",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 87,
+                "value":"notSatisfied",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pageId": 24,
+        "surveyPageReferenceId" : "survey:workLife:missedWork",
+        "imageCssClass": "",
+        "animatedImageCssClass" : "",
+        "hasAnimatedView": false,
+        "displayOrder": 1,
+        "clientRestrictions": [
+          {
+            "clientId": "",
+            "accountNumbers":[
+            ]
+          }
+        ],
+        "surveyQuestions": [
+          {
+            "id" : 29,
+            "questionReferenceId": "survey:workLife:missedWork",
+            "displayOrder": 1,
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 88,
+                "value":"0days",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 89,
+                "value":"1-2days",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 90,
+                "value":"3-5days",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 91,
+                "value":"6-10days",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 92,
+                "value":"11-15days",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 93,
+                "value":"16daysOrMore",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 94,
+                "value":"na",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pageId": 25,
+        "surveyPageReferenceId" : "survey:workLife:recentProductivity",
+        "imageCssClass": "",
+        "animatedImageCssClass" : "",
+        "hasAnimatedView": false,
+        "displayOrder": 1,
+        "clientRestrictions": [
+          {
+            "clientId": "",
+            "accountNumbers":[
+            ]
+          }
+        ],
+        "surveyQuestions": [
+          {
+            "id" : 30,
+            "questionReferenceId": "survey:workLife:recentProductivity",
+            "displayOrder": 1,
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 95,
+                "value":"noHealthProblems",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 96,
+                "value":"noneOfTheTime",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 97,
+                "value":"someOfTheTime",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 98,
+                "value":"mostOfTheTime",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 99,
+                "value":"allOfTheTime",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 100,
+                "value":"na",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pageId": 26,
+        "surveyPageReferenceId" : "survey:workLife:recentProductivity",
+        "imageCssClass": "",
+        "animatedImageCssClass" : "",
+        "hasAnimatedView": false,
+        "displayOrder": 1,
+        "clientRestrictions": [
+          {
+            "clientId": "",
+            "accountNumbers":[
+            ]
+          }
+        ],
+        "surveyQuestions": [
+          {
+            "id" : 31,
+            "questionReferenceId": "survey:workLife:recentProductivity",
+            "displayOrder": 1,
+            "answerDisplayCode": 1,
+            "surveyQuestionAnswers": [
+              {
+                "id": 101,
+                "value":"fieldInset",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pageId": 27,
+        "surveyPageReferenceId" : "survey:workLife:recentMissedWork",
+        "imageCssClass": "",
+        "animatedImageCssClass" : "",
+        "hasAnimatedView": false,
+        "displayOrder": 1,
+        "clientRestrictions": [
+          {
+            "clientId": "",
+            "accountNumbers":[
+            ]
+          }
+        ],
+        "surveyQuestions": [
+          {
+            "id" : 32,
+            "questionReferenceId": "survey:workLife:recentMissedWork",
+            "displayOrder": 1,
+            "answerDisplayCode": 1,
+            "surveyQuestionAnswers": [
+              {
+                "id": 102,
+                "value":"fieldInset",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pageId": 28,
+        "surveyPageReferenceId" : "survey:workLife:recentFamilyIllness",
+        "imageCssClass": "",
+        "animatedImageCssClass" : "",
+        "hasAnimatedView": false,
+        "displayOrder": 1,
+        "clientRestrictions": [
+          {
+            "clientId": "",
+            "accountNumbers":[
+            ]
+          }
+        ],
+        "surveyQuestions": [
+          {
+            "id" : 33,
+            "questionReferenceId": "survey:workLife:recentFamilyIllness",
+            "displayOrder": 1,
+            "answerDisplayCode": 1,
+            "surveyQuestionAnswers": [
+              {
+                "id": 103,
+                "value":"fieldInset",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "categoryId":  3,
+    "name": "Lifestyle",
+    "imageCssClass" : "src/external/secure/libs/hra/shared/assests/images/category/lifestyle-small.jpg",
+    "surveyPages" : [
+      {
+        "pageId": 29,
+        "surveyPageReferenceId" : "survey:lifestyle:smoking",
+        "imageCssClass": "",
+        "animatedImageCssClass" : "",
+
+        "hasAnimatedView": false,
+        "displayOrder": 1,
+        "clientRestrictions": [
+          {
+            "clientId": "",
+            "accountNumbers":[
+            ]
+          }
+        ],
+        "surveyQuestions": [
+          {
+            "id" : 34,
+            "questionReferenceId": "survey:lifestyle:smoking",
+            "displayOrder": 1,
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 104,
+                "value":"neverSmoke",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 105,
+                "value":"usedToSmoke",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 106,
+                "value":"stillSmoke",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pageId": 30,
+        "surveyPageReferenceId" : "survey:lifestyle:smokeFree",
+        "imageCssClass": "",
+        "animatedImageCssClass" : "",
+        "hasAnimatedView": false,
+        "displayOrder": 1,
+        "clientRestrictions": [
+          {
+            "clientId": "",
+            "accountNumbers":[
+            ]
+          }
+        ],
+        "surveyQuestions": [
+          {
+            "id" : 35,
+            "questionReferenceId": "survey:lifestyle:smokeFree",
+            "displayOrder": 1,
+            "answerDisplayCode": 1,
+            "surveyQuestionAnswers": [
+              {
+                "id": 107,
+                "value":"fieldInset",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pageId": 31,
+        "surveyPageReferenceId" : "survey:lifestyle:cigarettes",
+        "imageCssClass": "",
+        "animatedImageCssClass" : "",
+        "hasAnimatedView": false,
+        "displayOrder": 1,
+        "clientRestrictions": [
+          {
+            "clientId": "",
+            "accountNumbers":[
+            ]
+          }
+        ],
+        "surveyQuestions": [
+          {
+            "id" : 36,
+            "questionReferenceId": "survey:lifestyle:cigarettes",
+            "displayOrder": 1,
+            "answerDisplayCode": 1,
+            "surveyQuestionAnswers": [
+              {
+                "id": 108,
+                "value":"fieldInset",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pageId": 32,
+        "surveyPageReferenceId" : "survey:lifestyle:cigarettesPreSmokeFree",
+        "imageCssClass": "",
+        "animatedImageCssClass" : "",
+        "hasAnimatedView": false,
+        "displayOrder": 1,
+        "clientRestrictions": [
+          {
+            "clientId": "",
+            "accountNumbers":[
+            ]
+          }
+        ],
+        "surveyQuestions": [
+          {
+            "id" : 37,
+            "questionReferenceId": "survey:lifestyle:cigarettesPreSmokeFree",
+            "displayOrder": 1,
+            "answerDisplayCode": 1,
+            "surveyQuestionAnswers": [
+              {
+                "id": 109,
+                "value":"lessThan9",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 110,
+                "value":"10to15",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 111,
+                "value":"16to19",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 112,
+                "value":"20p",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pageId": 33,
+        "surveyPageReferenceId" : "survey:lifestyle:smokePipe",
+        "imageCssClass": "",
+        "animatedImageCssClass" : "",
+        "hasAnimatedView": false,
+        "displayOrder": 1,
+        "clientRestrictions": [
+          {
+            "clientId": "",
+            "accountNumbers":[
+            ]
+          }
+        ],
+        "surveyQuestions": [
+          {
+            "id" : 38,
+            "questionReferenceId": "survey:lifestyle:smokePipe",
+            "displayOrder": 1,
+            "answerDisplayCode": 1,
+            "surveyQuestionAnswers": [
+              {
+                "id": 113,
+                "value":"yes",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 114,
+                "value":"no",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pageId": 34,
+        "surveyPageReferenceId" : "survey:lifestyle:smokeCigars",
+        "imageCssClass": "",
+        "animatedImageCssClass" : "",
+        "hasAnimatedView": false,
+        "displayOrder": 1,
+        "clientRestrictions": [
+          {
+            "clientId": "",
+            "accountNumbers":[
+            ]
+          }
+        ],
+        "surveyQuestions": [
+          {
+            "id" : 39,
+            "questionReferenceId": "survey:lifestyle:smokeCigars",
+            "displayOrder": 1,
+            "answerDisplayCode": 1,
+            "surveyQuestionAnswers": [
+              {
+                "id": 115,
+                "value":"yes",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 116,
+                "value":"no",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pageId": 35,
+        "surveyPageReferenceId" : "survey:lifestyle:smokelessTobacco",
+        "imageCssClass": "",
+        "animatedImageCssClass" : "",
+        "hasAnimatedView": false,
+        "displayOrder": 1,
+        "clientRestrictions": [
+          {
+            "clientId": "",
+            "accountNumbers":[
+            ]
+          }
+        ],
+        "surveyQuestions": [
+          {
+            "id" : 40,
+            "questionReferenceId": "survey:lifestyle:smokelessTobacco",
+            "displayOrder": 1,
+            "answerDisplayCode": 1,
+            "surveyQuestionAnswers": [
+              {
+                "id": 117,
+                "value":"yes",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 118,
+                "value":"no",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pageId": 36,
+        "surveyPageReferenceId" : "survey:lifestyle:smokingPlan",
+        "imageCssClass": "",
+        "animatedImageCssClass" : "",
+        "hasAnimatedView": false,
+        "displayOrder": 7,
+        "clientRestrictions": [
+          {
+            "clientId": "",
+            "accountNumbers":[
+            ]
+          }
+        ],
+        "surveyQuestions": [
+          {
+            "id" : 41,
+            "questionReferenceId": "survey:lifestyle:smokingPlan",
+            "displayOrder": 2,
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 119,
+                "value":"yes",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 120,
+                "value":"no",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 121,
+                "value":"uncertain",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 122,
+                "value":"na",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pageId": 37,
+        "surveyPageReferenceId" : "survey:lifestyle:drugUse",
+        "imageCssClass": "",
+        "animatedImageCssClass" : "",
+        "hasAnimatedView": false,
+        "displayOrder": 5,
+        "clientRestrictions": [
+          {
+            "clientId": "",
+            "accountNumbers":[
+            ]
+          }
+        ],
+        "surveyQuestions": [
+          {
+            "id" : 42,
+            "questionReferenceId": "survey:lifestyle:drugUse",
+            "displayOrder": 2,
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 123,
+                "value":"almostEverDay",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 124,
+                "value":"sometimes",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 125,
+                "value":"rarelyOrNever",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pageId": 38,
+        "surveyPageReferenceId" : "survey:lifestyle:alcoholUse",
+        "imageCssClass": "",
+        "animatedImageCssClass" : "",
+        "hasAnimatedView": false,
+        "displayOrder": 1,
+        "clientRestrictions": [
+          {
+            "clientId": "",
+            "accountNumbers":[
+            ]
+          }
+        ],
+        "surveyQuestions": [
+          {
+            "id" : 43,
+            "questionReferenceId": "survey:lifestyle:alcoholUse",
+            "displayOrder": 1,
+            "answerDisplayCode": 1,
+            "surveyQuestionAnswers": [
+              {
+                "id": 126,
+                "value":"fieldInset",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pageId": 39,
+        "surveyPageReferenceId" : "survey:lifestyle:drunkDriving",
+        "imageCssClass": "",
+        "animatedImageCssClass" : "",
+        "hasAnimatedView": false,
+        "displayOrder": 1,
+        "clientRestrictions": [
+          {
+            "clientId": "",
+            "accountNumbers":[
+            ]
+          }
+        ],
+        "surveyQuestions": [
+          {
+            "id" : 44,
+            "questionReferenceId": "survey:lifestyle:drunkDriving",
+            "displayOrder": 1,
+            "answerDisplayCode": 1,
+            "surveyQuestionAnswers": [
+              {
+                "id": 127,
+                "value":"fieldInset",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pageId": 40,
+        "surveyPageReferenceId" : "survey:lifestyle:alcoholPlan",
+        "imageCssClass": "",
+        "animatedImageCssClass" : "",
+        "hasAnimatedView": false,
+        "displayOrder": 7,
+        "clientRestrictions": [
+          {
+            "clientId": "",
+            "accountNumbers":[
+            ]
+          }
+        ],
+        "surveyQuestions": [
+          {
+            "id" : 45,
+            "questionReferenceId": "survey:lifestyle:alcoholPlan",
+            "displayOrder": 2,
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 128,
+                "value":"yes",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 129,
+                "value":"no",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 130,
+                "value":"uncertain",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 131,
+                "value":"na",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pageId": 41,
+        "surveyPageReferenceId" : "survey:lifestyle:seatBelt",
+        "imageCssClass": "",
+        "animatedImageCssClass" : "",
+        "hasAnimatedView": false,
+        "displayOrder": 5,
+        "clientRestrictions": [
+          {
+            "clientId": "",
+            "accountNumbers":[
+            ]
+          }
+        ],
+        "surveyQuestions": [
+          {
+            "id" : 46,
+            "questionReferenceId": "survey:lifestyle:seatBelt",
+            "displayOrder": 2,
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 132,
+                "value":"always",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 133,
+                "value":"usually",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 134,
+                "value":"sometimes",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 135,
+                "value":"never",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pageId": 42,
+        "surveyPageReferenceId" : "survey:lifestyle:flossTeeth",
+        "imageCssClass": "",
+        "animatedImageCssClass" : "",
+        "hasAnimatedView": false,
+        "displayOrder": 5,
+        "clientRestrictions": [
+          {
+            "clientId": "",
+            "accountNumbers":[
+            ]
+          }
+        ],
+        "surveyQuestions": [
+          {
+            "id" : 47,
+            "questionReferenceId": "survey:lifestyle:flossTeeth",
+            "displayOrder": 2,
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 136,
+                "value":"doesNotApply",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 137,
+                "value":"rarelyOrNever",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 138,
+                "value":"sometimes",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 139,
+                "value":"almostEverDay",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 140,
+                "value":"everDay",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pageId": 43,
+        "surveyPageReferenceId" : "survey:lifestyle:sunScreen",
+        "imageCssClass": "",
+        "animatedImageCssClass" : "",
+        "hasAnimatedView": false,
+        "displayOrder": 5,
+        "clientRestrictions": [
+          {
+            "clientId": "",
+            "accountNumbers":[
+            ]
+          }
+        ],
+        "surveyQuestions": [
+          {
+            "id" : 48,
+            "questionReferenceId": "survey:lifestyle:sunScreen",
+            "displayOrder": 2,
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 141,
+                "value":"rarelyOrNever",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 142,
+                "value":"someOfTheTime",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 143,
+                "value":"mostOfTheTime",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 144,
+                "value":"allOfTheTime",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pageId": 44,
+        "surveyPageReferenceId" : "survey:lifestyle:fiberIntake",
+        "imageCssClass": "",
+        "animatedImageCssClass" : "",
+        "hasAnimatedView": false,
+        "displayOrder": 5,
+        "clientRestrictions": [
+          {
+            "clientId": "",
+            "accountNumbers":[
+            ]
+          }
+        ],
+        "surveyQuestions": [
+          {
+            "id" : 49,
+            "questionReferenceId": "survey:lifestyle:fiberIntake",
+            "displayOrder": 2,
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 145,
+                "value":"rarelyOrNever",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 146,
+                "value":"1to2servings",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 147,
+                "value":"3to4servings",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 148,
+                "value":"5to6servings",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pageId": 45,
+        "surveyPageReferenceId" : "survey:lifestyle:cholesterolIntake",
+        "imageCssClass": "",
+        "animatedImageCssClass" : "",
+        "hasAnimatedView": false,
+        "displayOrder": 5,
+        "clientRestrictions": [
+          {
+            "clientId": "",
+            "accountNumbers":[
+            ]
+          }
+        ],
+        "surveyQuestions": [
+          {
+            "id" : 50,
+            "questionReferenceId": "survey:lifestyle:cholesterolIntake",
+            "displayOrder": 2,
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 149,
+                "value":"5to6servings",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 150,
+                "value":"3to4servings",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 151,
+                "value":"1to2servings",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 152,
+                "value":"rarelyOrNever",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pageId": 46,
+        "surveyPageReferenceId" : "survey:lifestyle:cholesterolIntakePlan",
+        "imageCssClass": "",
+        "animatedImageCssClass" : "",
+        "hasAnimatedView": false,
+        "displayOrder": 7,
+        "clientRestrictions": [
+          {
+            "clientId": "",
+            "accountNumbers":[
+            ]
+          }
+        ],
+        "surveyQuestions": [
+          {
+            "id" : 51,
+            "questionReferenceId": "survey:lifestyle:cholesterolIntakePlan",
+            "displayOrder": 2,
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 153,
+                "value":"yes",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 154,
+                "value":"no",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 155,
+                "value":"uncertain",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 156,
+                "value":"na",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pageId": 47,
+        "surveyPageReferenceId" : "survey:lifestyle:exercise",
+        "imageCssClass": "",
+        "animatedImageCssClass" : "",
+        "hasAnimatedView": false,
+        "displayOrder": 7,
+        "clientRestrictions": [
+          {
+            "clientId": "",
+            "accountNumbers":[
+            ]
+          }
+        ],
+        "surveyQuestions": [
+          {
+            "id" : 52,
+            "questionReferenceId": "survey:lifestyle:exercise",
+            "displayOrder": 2,
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 157,
+                "value":"4OrMoreTimesPerWeek",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 158,
+                "value":"3TimesPerWeek",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 159,
+                "value":"1to2TimesPerWeek",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 160,
+                "value":"rarelyOrNever",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pageId": 48,
+        "surveyPageReferenceId" : "survey:lifestyle:exerciseIntensity",
+        "imageCssClass": "",
+        "animatedImageCssClass" : "",
+        "hasAnimatedView": false,
+        "displayOrder": 7,
+        "clientRestrictions": [
+          {
+            "clientId": "",
+            "accountNumbers":[
+            ]
+          }
+        ],
+        "surveyQuestions": [
+          {
+            "id" : 53,
+            "questionReferenceId": "survey:lifestyle:exerciseIntensity",
+            "displayOrder": 2,
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 161,
+                "value":"everyDay",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 162,
+                "value":"5to6TimesPerWeek",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 163,
+                "value":"3to4TimesPerWeek",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 164,
+                "value":"2TimesPerWeek",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 165,
+                "value":"1TimePerWeek",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 166,
+                "value":"none",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pageId": 49,
+        "surveyPageReferenceId" : "survey:lifestyle:exercisePlan",
+        "imageCssClass": "",
+        "animatedImageCssClass" : "",
+        "hasAnimatedView": false,
+        "displayOrder": 7,
+        "clientRestrictions": [
+          {
+            "clientId": "",
+            "accountNumbers":[
+            ]
+          }
+        ],
+        "surveyQuestions": [
+          {
+            "id" : 54,
+            "questionReferenceId": "survey:lifestyle:exercisePlan",
+            "displayOrder": 2,
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 167,
+                "value":"yes",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 168,
+                "value":"no",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 169,
+                "value":"uncertain",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 170,
+                "value":"na",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "categoryId":  4,
+    "name": "Medical History",
+    "imageCssClass" : "src/external/secure/libs/hra/shared/assests/images/category/medical-history-small.jpg",
+    "surveyPages" : [
+      {
+        "pageId": 50,
+        "surveyPageReferenceId" : "survey:medical:neurological",
+        "imageCssClass": "",
+        "animatedImageCssClass" : "",
+        "hasAnimatedView": false,
+        "displayOrder": 1,
+        "clientRestrictions": [
+          {
+            "clientId": "",
+            "accountNumbers":[
+            ]
+          }
+        ],
+        "surveyQuestions": [
+          {
+            "id" : 55,
+            "questionReferenceId": "survey:medical:neurological:stroke:status",
+            "displayOrder": 1,
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 171,
+                "value":"current",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 172,
+                "value":"past",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 173,
+                "value":"never",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          },
+          {
+            "id" : 56,
+            "questionReferenceId": "survey:medical:neurological:stroke:medication",
+            "displayOrder": 1,
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 174,
+                "value":"takingMedication",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 175,
+                "value":"underMedicalCare",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 176,
+                "value":"tookMedication",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 177,
+                "value":"receivedMedicalCare",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 178,
+                "value":"none",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 179,
+                "value":"both",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          },
+          {
+            "id" : 57,
+            "questionReferenceId": "survey:medical:neurological:migraine:status",
+            "displayOrder": 1,
+            "answerDisplayCode": 3,
+            "surveyQuestionAnswers": [
+              {
+                "id": 180,
+                "value":"current",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 181,
+                "value":"past",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 182,
+                "value":"never",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          },
+          {
+            "id" : 58,
+            "questionReferenceId": "survey:medical:neurological:migraine:medication",
+            "displayOrder": 1,
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 183,
+                "value":"takingMedication",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 184,
+                "value":"underMedicalCare",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 185,
+                "value":"tookMedication",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 186,
+                "value":"receivedMedicalCare",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 187,
+                "value":"none",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 188,
+                "value":"both",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pageId": 51,
+        "surveyPageReferenceId" : "survey:medical:respiratory",
+        "imageCssClass": "",
+        "animatedImageCssClass" : "",
+        "hasAnimatedView": false,
+        "displayOrder": 1,
+        "clientRestrictions": [
+          {
+            "clientId": "",
+            "accountNumbers":[
+            ]
+          }
+        ],
+        "surveyQuestions": [
+          {
+            "id" : 59,
+            "questionReferenceId": "survey:medical:respiratory:copd:status",
+            "displayOrder": 1,
+            "answerDisplayCode": 3,
+            "surveyQuestionAnswers": [
+              {
+                "id": 189,
+                "value":"current",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 190,
+                "value":"past",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 191,
+                "value":"never",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          },
+          {
+            "id" : 60,
+            "questionReferenceId": "survey:medical:respiratory:copd:medication",
+            "displayOrder": 1,
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 192,
+                "value":"takingMedication",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 193,
+                "value":"underMedicalCare",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 194,
+                "value":"tookMedication",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 195,
+                "value":"receivedMedicalCare",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 196,
+                "value":"none",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 197,
+                "value":"both",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          },
+          {
+            "id" : 61,
+            "questionReferenceId": "survey:medical:respiratory:asthma:status",
+            "displayOrder": 1,
+            "answerDisplayCode": 3,
+            "surveyQuestionAnswers": [
+              {
+                "id": 198,
+                "value":"current",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 199,
+                "value":"past",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 200,
+                "value":"never",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          },
+          {
+            "id" : 62,
+            "questionReferenceId": "survey:medical:respiratory:asthma:medication",
+            "displayOrder": 1,
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 201,
+                "value":"takingMedication",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 202,
+                "value":"underMedicalCare",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 203,
+                "value":"tookMedication",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 204,
+                "value":"receivedMedicalCare",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 205,
+                "value":"none",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 206,
+                "value":"both",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pageId": 52,
+        "surveyPageReferenceId" : "survey:medical:cardiovascular",
+        "imageCssClass": "",
+        "animatedImageCssClass" : "",
+        "hasAnimatedView": false,
+        "displayOrder": 1,
+        "clientRestrictions": [
+          {
+            "clientId": "",
+            "accountNumbers":[
+            ]
+          }
+        ],
+        "surveyQuestions": [
+          {
+            "id" : 63,
+            "questionReferenceId": "survey:medical:cardiovascular:heart:status",
+            "displayOrder": 1,
+            "answerDisplayCode": 3,
+            "surveyQuestionAnswers": [
+              {
+                "id": 207,
+                "value":"current",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 208,
+                "value":"past",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 209,
+                "value":"never",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          },
+          {
+            "id" : 64,
+            "questionReferenceId": "survey:medical:cardiovascular:heart:medication",
+            "displayOrder": 1,
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 210,
+                "value":"takingMedication",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 211,
+                "value":"underMedicalCare",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 212,
+                "value":"tookMedication",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 213,
+                "value":"receivedMedicalCare",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 214,
+                "value":"none",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 215,
+                "value":"both",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          },
+          {
+            "id" : 65,
+            "questionReferenceId": "survey:medical:cardiovascular:bp:status",
+            "displayOrder": 1,
+            "answerDisplayCode": 3,
+            "surveyQuestionAnswers": [
+              {
+                "id": 216,
+                "value":"current",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 217,
+                "value":"past",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 218,
+                "value":"never",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          },
+          {
+            "id" : 66,
+            "questionReferenceId": "survey:medical:cardiovascular:bp:medication",
+            "displayOrder": 1,
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 219,
+                "value":"takingMedication",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 220,
+                "value":"underMedicalCare",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 221,
+                "value":"tookMedication",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 222,
+                "value":"receivedMedicalCare",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 223,
+                "value":"none",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 224,
+                "value":"both",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          },
+          {
+            "id" : 67,
+            "questionReferenceId": "survey:medical:cardiovascular:cholesterol:status",
+            "displayOrder": 1,
+            "answerDisplayCode": 3,
+            "surveyQuestionAnswers": [
+              {
+                "id": 225,
+                "value":"current",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 226,
+                "value":"past",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 227,
+                "value":"never",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          },
+          {
+            "id" : 68,
+            "questionReferenceId": "survey:medical:cardiovascular:cholesterol:medication",
+            "displayOrder": 1,
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 228,
+                "value":"takingMedication",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 229,
+                "value":"underMedicalCare",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 230,
+                "value":"tookMedication",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 231,
+                "value":"receivedMedicalCare",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 232,
+                "value":"none",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 233,
+                "value":"both",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pageId": 53,
+        "surveyPageReferenceId" : "survey:medical:endocrine",
+        "imageCssClass": "",
+        "animatedImageCssClass" : "",
+        "hasAnimatedView": false,
+        "displayOrder": 1,
+        "clientRestrictions": [
+          {
+            "clientId": "",
+            "accountNumbers":[
+            ]
+          }
+        ],
+        "surveyQuestions": [
+          {
+            "id" : 69,
+            "questionReferenceId": "survey:medical:endocrine:diabetes:status",
+            "displayOrder": 1,
+            "answerDisplayCode": 3,
+            "surveyQuestionAnswers": [
+              {
+                "id": 234,
+                "value":"current",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 235,
+                "value":"past",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 236,
+                "value":"never",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          },
+          {
+            "id" : 70,
+            "questionReferenceId": "survey:medical:endocrine:diabetes:medication",
+            "displayOrder": 1,
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 237,
+                "value":"takingMedication",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 238,
+                "value":"underMedicalCare",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 239,
+                "value":"tookMedication",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 240,
+                "value":"receivedMedicalCare",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 241,
+                "value":"none",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 242,
+                "value":"both",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          },
+          {
+            "id" : 71,
+            "questionReferenceId": "survey:medical:endocrine:thyroid:status",
+            "displayOrder": 1,
+            "answerDisplayCode": 3,
+            "surveyQuestionAnswers": [
+              {
+                "id": 238,
+                "value":"current",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 239,
+                "value":"past",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 240,
+                "value":"never",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          },
+          {
+            "id" : 72,
+            "questionReferenceId": "survey:medical:endocrine:thyroid:medication",
+            "displayOrder": 1,
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 241,
+                "value":"takingMedication",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 242,
+                "value":"underMedicalCare",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 243,
+                "value":"tookMedication",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 244,
+                "value":"receivedMedicalCare",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 245,
+                "value":"none",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 246,
+                "value":"both",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pageId": 54,
+        "surveyPageReferenceId" : "survey:medical:musculoskeletal",
+        "imageCssClass": "",
+        "animatedImageCssClass" : "",
+        "hasAnimatedView": false,
+        "displayOrder": 1,
+        "clientRestrictions": [
+          {
+            "clientId": "",
+            "accountNumbers":[
+            ]
+          }
+        ],
+        "surveyQuestions": [
+          {
+            "id" : 73,
+            "questionReferenceId": "survey:medical:musculoskeletal:backpain:status",
+            "displayOrder": 1,
+            "answerDisplayCode": 3,
+            "surveyQuestionAnswers": [
+              {
+                "id": 247,
+                "value":"current",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 248,
+                "value":"past",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 249,
+                "value":"never",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          },
+          {
+            "id" : 74,
+            "questionReferenceId": "survey:medical:musculoskeletal:backpain:medication",
+            "displayOrder": 1,
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 250,
+                "value":"takingMedication",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 251,
+                "value":"underMedicalCare",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 252,
+                "value":"tookMedication",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 253,
+                "value":"receivedMedicalCare",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 254,
+                "value":"none",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 255,
+                "value":"both",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          },
+          {
+            "id" : 75,
+            "questionReferenceId": "survey:medical:musculoskeletal:osteoporosis:status",
+            "displayOrder": 1,
+            "answerDisplayCode": 3,
+            "surveyQuestionAnswers": [
+              {
+                "id": 256,
+                "value":"current",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 257,
+                "value":"past",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 258,
+                "value":"never",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          },
+          {
+            "id" : 76,
+            "questionReferenceId": "survey:medical:musculoskeletal:osteoporosis:medication",
+            "displayOrder": 1,
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 259,
+                "value":"takingMedication",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 260,
+                "value":"underMedicalCare",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 261,
+                "value":"tookMedication",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 262,
+                "value":"receivedMedicalCare",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 263,
+                "value":"none",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 264,
+                "value":"both",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          },
+          {
+            "id" : 77,
+            "questionReferenceId": "survey:medical:musculoskeletal:chronicpain:status",
+            "displayOrder": 1,
+            "answerDisplayCode": 3,
+            "surveyQuestionAnswers": [
+              {
+                "id": 265,
+                "value":"current",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 266,
+                "value":"past",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 267,
+                "value":"never",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          },
+          {
+            "id" : 78,
+            "questionReferenceId": "survey:medical:musculoskeletal:chronicpain:medication",
+            "displayOrder": 1,
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 268,
+                "value":"takingMedication",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 269,
+                "value":"underMedicalCare",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 270,
+                "value":"tookMedication",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 271,
+                "value":"receivedMedicalCare",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 272,
+                "value":"none",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 273,
+                "value":"both",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          },
+          {
+            "id" : 79,
+            "questionReferenceId": "survey:medical:musculoskeletal:arthritis:status",
+            "displayOrder": 1,
+            "answerDisplayCode": 3,
+            "surveyQuestionAnswers": [
+              {
+                "id": 269,
+                "value":"current",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 270,
+                "value":"past",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 271,
+                "value":"never",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          },
+          {
+            "id" : 80,
+            "questionReferenceId": "survey:medical:musculoskeletal:arthritis:medication",
+            "displayOrder": 1,
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 272,
+                "value":"takingMedication",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 273,
+                "value":"underMedicalCare",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 274,
+                "value":"tookMedication",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 275,
+                "value":"receivedMedicalCare",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 276,
+                "value":"none",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 277,
+                "value":"both",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pageId": 55,
+        "surveyPageReferenceId" : "survey:medical:miscellaneous",
+        "imageCssClass": "",
+        "animatedImageCssClass" : "",
+        "hasAnimatedView": false,
+        "displayOrder": 1,
+        "clientRestrictions": [
+          {
+            "clientId": "",
+            "accountNumbers":[
+            ]
+          }
+        ],
+        "surveyQuestions": [
+          {
+            "id" : 81,
+            "questionReferenceId": "survey:medical:miscellaneous:allergies:status",
+            "displayOrder": 1,
+            "answerDisplayCode": 3,
+            "surveyQuestionAnswers": [
+              {
+                "id": 278,
+                "value":"current",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 279,
+                "value":"past",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 280,
+                "value":"never",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          },
+          {
+            "id" : 82,
+            "questionReferenceId": "survey:medical:miscellaneous:allergies:medication",
+            "displayOrder": 1,
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 281,
+                "value":"takingMedication",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 282,
+                "value":"underMedicalCare",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 283,
+                "value":"tookMedication",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 284,
+                "value":"receivedMedicalCare",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 285,
+                "value":"none",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 286,
+                "value":"both",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          },
+          {
+            "id" : 83,
+            "questionReferenceId": "survey:medical:miscellaneous:cancer:status",
+            "displayOrder": 1,
+            "answerDisplayCode": 3,
+            "surveyQuestionAnswers": [
+              {
+                "id": 287,
+                "value":"current",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 288,
+                "value":"past",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 289,
+                "value":"never",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          },
+          {
+            "id" : 84,
+            "questionReferenceId": "survey:medical:miscellaneous:cancer:medication",
+            "displayOrder": 1,
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 290,
+                "value":"takingMedication",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 291,
+                "value":"underMedicalCare",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 292,
+                "value":"tookMedication",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 293,
+                "value":"receivedMedicalCare",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 294,
+                "value":"none",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 295,
+                "value":"both",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          },
+          {
+            "id" : 85,
+            "questionReferenceId": "survey:medical:miscellaneous:depression:status",
+            "displayOrder": 1,
+            "answerDisplayCode": 3,
+            "surveyQuestionAnswers": [
+              {
+                "id": 296,
+                "value":"current",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 297,
+                "value":"past",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 298,
+                "value":"never",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          },
+          {
+            "id" : 86,
+            "questionReferenceId": "survey:medical:miscellaneous:depression:medication",
+            "displayOrder": 1,
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 299,
+                "value":"takingMedication",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 300,
+                "value":"underMedicalCare",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 301,
+                "value":"tookMedication",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 302,
+                "value":"receivedMedicalCare",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 303,
+                "value":"none",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 304,
+                "value":"both",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          },
+          {
+            "id" : 87,
+            "questionReferenceId": "survey:medical:miscellaneous:heartburn:status",
+            "displayOrder": 1,
+            "answerDisplayCode": 3,
+            "surveyQuestionAnswers": [
+              {
+                "id": 305,
+                "value":"current",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 306,
+                "value":"past",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 307,
+                "value":"never",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          },
+          {
+            "id" : 88,
+            "questionReferenceId": "survey:medical:miscellaneous:heartburn:medication",
+            "displayOrder": 1,
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 308,
+                "value":"takingMedication",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 309,
+                "value":"underMedicalCare",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 310,
+                "value":"tookMedication",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 311,
+                "value":"receivedMedicalCare",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 312,
+                "value":"none",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 313,
+                "value":"both",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          },
+          {
+            "id" : 88,
+            "questionReferenceId": "survey:medical:miscellaneous:sleepDisorder:status",
+            "displayOrder": 1,
+            "answerDisplayCode": 3,
+            "surveyQuestionAnswers": [
+              {
+                "id": 314,
+                "value":"current",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 315,
+                "value":"past",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 316,
+                "value":"never",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          },
+          {
+            "id" : 89,
+            "questionReferenceId": "survey:medical:miscellaneous:sleepDisorder:medication",
+            "displayOrder": 1,
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 317,
+                "value":"takingMedication",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 318,
+                "value":"underMedicalCare",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 319,
+                "value":"tookMedication",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 320,
+                "value":"receivedMedicalCare",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 321,
+                "value":"none",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 322,
+                "value":"both",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          },
+          {
+            "id" : 90,
+            "questionReferenceId": "survey:medical:miscellaneous:other:status",
+            "displayOrder": 1,
+            "answerDisplayCode": 3,
+            "surveyQuestionAnswers": [
+              {
+                "id": 323,
+                "value":"current",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 324,
+                "value":"past",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 325,
+                "value":"never",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          },
+          {
+            "id" : 91,
+            "questionReferenceId": "survey:medical:miscellaneous:other:medication",
+            "displayOrder": 1,
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 326,
+                "value":"takingMedication",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 327,
+                "value":"underMedicalCare",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 328,
+                "value":"tookMedication",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 329,
+                "value":"receivedMedicalCare",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 330,
+                "value":"none",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 331,
+                "value":"both",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "categoryId":  5,
+    "name": "Health Screenings",
+    "imageCssClass" : "src/external/secure/libs/hra/shared/assests/images/category/medical-screening-small.jpg",
+    "surveyPages" : [
+      {
+        "pageId": 56,
+        "surveyPageReferenceId" : "survey:screenings:history",
+        "imageCssClass": "",
+        "animatedImageCssClass" : "",
+        "hasAnimatedView": false,
+        "displayOrder": 1,
+        "clientRestrictions": [
+          {
+            "clientId": "",
+            "accountNumbers":[
+            ]
+          }
+        ],
+        "surveyQuestions": [
+          {
+            "id" : 92,
+            "questionReferenceId": "survey:screenings:history:colonoscopy",
+            "displayOrder": 1,
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 332,
+                "value":"lessThan1Year",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": [1, 2  ]
+              },
+              {
+                "id": 333,
+                "value":"1to2yearsAgo",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 334,
+                "value":"2to3yearsAgo",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 335,
+                "value":"3to4yearsAgo",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 336,
+                "value":"5to6yearsAgo",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 337,
+                "value":"7orMoreYearsAgo",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 338,
+                "value":"never",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 339,
+                "value":"dontKnow",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          },
+          {
+            "id" : 93,
+            "questionReferenceId": "survey:screenings:history:fluShot",
+            "displayOrder": 1,
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 340,
+                "value":"lessThan1Year",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 341,
+                "value":"1to2yearsAgo",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 342,
+                "value":"2to3yearsAgo",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 343,
+                "value":"3to4yearsAgo",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 344,
+                "value":"5to6yearsAgo",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 345,
+                "value":"7orMoreYearsAgo",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 346,
+                "value":"never",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 347,
+                "value":"dontKnow",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          },
+          {
+            "id" : 94,
+            "questionReferenceId": "survey:screenings:history:tetanusShot",
+            "displayOrder": 1,
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 348,
+                "value":"lessThan1Year",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 349,
+                "value":"1to2yearsAgo",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 350,
+                "value":"2to3yearsAgo",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 351,
+                "value":"3to4yearsAgo",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 352,
+                "value":"5to6yearsAgo",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 353,
+                "value":"7orMoreYearsAgo",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 354,
+                "value":"never",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 355,
+                "value":"dontKnow",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          },
+          {
+            "id" : 95,
+            "questionReferenceId": "survey:screenings:history:bloodPressureCheck",
+            "displayOrder": 1,
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 356,
+                "value":"lessThan1Year",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 355,
+                "value":"1to2yearsAgo",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 356,
+                "value":"2to3yearsAgo",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 357,
+                "value":"3to4yearsAgo",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 358,
+                "value":"5to6yearsAgo",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 359,
+                "value":"7orMoreYearsAgo",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 360,
+                "value":"never",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 361,
+                "value":"dontKnow",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          },
+          {
+            "id" : 96,
+            "questionReferenceId": "survey:screenings:history:cholesterolTest",
+            "displayOrder": 1,
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 362,
+                "value":"lessThan1Year",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 363,
+                "value":"1to2yearsAgo",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 364,
+                "value":"2to3yearsAgo",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 365,
+                "value":"3to4yearsAgo",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 366,
+                "value":"5to6yearsAgo",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 367,
+                "value":"7orMoreYearsAgo",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 368,
+                "value":"never",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 369,
+                "value":"dontKnow",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          },
+          {
+            "id" : 97,
+            "questionReferenceId": "survey:screenings:history:dentalExam",
+            "displayOrder": 1,
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 370,
+                "value":"lessThan1Year",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 371,
+                "value":"1to2yearsAgo",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 372,
+                "value":"2to3yearsAgo",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 373,
+                "value":"3to4yearsAgo",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 374,
+                "value":"5to6yearsAgo",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 375,
+                "value":"7orMoreYearsAgo",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 376,
+                "value":"never",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 377,
+                "value":"dontKnow",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          },
+          {
+            "id" : 98,
+            "questionReferenceId": "survey:screenings:history:papTest",
+            "displayOrder": 1,
+            "gender": "female",
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 378,
+                "value":"lessThan1Year",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 379,
+                "value":"1to2yearsAgo",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 380,
+                "value":"2to3yearsAgo",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 381,
+                "value":"3to4yearsAgo",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 382,
+                "value":"5to6yearsAgo",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 383,
+                "value":"7orMoreYearsAgo",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 384,
+                "value":"never",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 385,
+                "value":"dontKnow",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          },
+          {
+            "id" : 98,
+            "questionReferenceId": "survey:screenings:history:mammogram",
+            "displayOrder": 1,
+            "gender": "female",
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 386,
+                "value":"lessThan1Year",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 387,
+                "value":"1to2yearsAgo",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 388,
+                "value":"2to3yearsAgo",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 389,
+                "value":"3to4yearsAgo",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 390,
+                "value":"5to6yearsAgo",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 391,
+                "value":"7orMoreYearsAgo",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 392,
+                "value":"never",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 393,
+                "value":"dontKnow",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pageId": 57,
+        "surveyPageReferenceId" : "survey:screenings:incidents",
+        "imageCssClass": "",
+        "animatedImageCssClass" : "",
+        "hasAnimatedView": false,
+        "displayOrder": 1,
+        "clientRestrictions": [
+          {
+            "clientId": "",
+            "accountNumbers":[
+            ]
+          }
+        ],
+        "surveyQuestions": [
+          {
+            "id" : 99,
+            "questionReferenceId": "survey:screenings:incidents:physician",
+            "displayOrder": 1,
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 394,
+                "value":"zero",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 395,
+                "value":"1to2",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 396,
+                "value":"3to5",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 397,
+                "value":"6orMore",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          },
+          {
+            "id" : 100,
+            "questionReferenceId": "survey:screenings:incidents:emergencyRoom",
+            "displayOrder": 1,
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 398,
+                "value":"zero",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 399,
+                "value":"1to2",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 400,
+                "value":"3to5",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 401,
+                "value":"6orMore",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          },
+          {
+            "id" : 101,
+            "questionReferenceId": "survey:screenings:incidents:overnightHospital",
+            "displayOrder": 1,
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 402,
+                "value":"zero",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 403,
+                "value":"1to2",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 404,
+                "value":"3to5",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 405,
+                "value":"6orMore",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          },
+          {
+            "id" : 102,
+            "questionReferenceId": "survey:screenings:incidents:examinedBreasts",
+            "displayOrder": 1,
+            "gender": "female",
+            "answerDisplayCode": 2,
+            "surveyQuestionAnswers": [
+              {
+                "id": 406,
+                "value":"zero",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 407,
+                "value":"1to2",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 408,
+                "value":"3to5",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              },
+              {
+                "id": 409,
+                "value":"6orMore",
+                "dataType": 1,
+                "displayIdkModal": false,
+                "displayOrder": 1,
+                "followUpQuestionIdentifiers":  [],
+                "validationRules": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

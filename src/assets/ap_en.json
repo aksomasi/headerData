@@ -1,0 +1,1264 @@
+{
+    "onboarding": {
+        "welcome": {
+            "title": "Welcome, {{name}}!",
+            "caption": "You can have a positive impact on your health and life -- today.",
+            "description": "By taking the assessment, you'll gain knowledge about what you are doing well and areas that may need work when it comes to things like nutrition, exercise, managing your stress, life/work balance. With this knowledge you will have the power to make positive changes in your life.<br><br>If you have health coaching available, we can find a program to help you create healthy habits. Best of all, you can retake the assessment and track your progress over time. How cool is that?<br><br>Are you ready to begin your journey to better health? We'll be with you every step of the way."
+        },
+        "privacy": {
+            "title": "Welcome, {{name}}!",
+            "subtitle": "Health Assessment Privacy Notice:",
+            "agreement": "<p>When you complete a Health Assessment, you share important information about your health-related activities and behaviors, and whether you have or had certain medical conditions (e.g. cancer, diabetes, heart disease).  We use this information to identify programs and services that can help you stay healthy, improve your health, or address other health-related issues. Examples of these services are health coaching and online health and wellness programs. You may ask your plan administrator for details about the programs and services available with your plan.</p><p>In addition to the uses described in <a href=\"http://www.cigna.com/assets/docs/privacy-notices-and-forms/final-on-line-with-incentive-language.pdf\" target=\"_blank\">Cigna's on-line privacy notice</a>, we may also share and use information from your Health Assessment as follows:<ul><li>With the administrator of your health plan (“Plan Administrator”), its service provider, vendor, consultant, or other recipient designated by the Plan Administrator (collectively, “Plan Administrator or designees”), in order to administer an incentive program for you (employee or spouse).</li><li>With the Plan Administrator or designees in order to offer health and wellness programs and services to you.</li><li>With the Plan Administrator or designees in aggregate form in order to plan and design the overall employer wellness program.</li></ul></p><p><b><i>As you proceed to complete the health assessment, you provide authorization for Cigna and the employer-sponsored wellness program to collect your health information. You understand that providing this authorization and completing the health assessment is voluntary under the employer wellness program.</i></b></p><p><b><u>Protections from Disclosure of Medical Information</u></b><br>We are required by law to maintain the privacy and security of your personally identifiable health information. Although the wellness program and your employer may use aggregate information it collects to design a program based on identified health risks in the workplace, Cigna will never disclose any of your personal information either publicly or to the employer, except as necessary to respond to a request from you for a reasonable accommodation needed to participate in the wellness program, or as expressly permitted by law. Medical information that personally identifies you that is provided in connection with the wellness program will not be provided to your supervisors or managers and may never be used to make decisions regarding your employment. Please note that individually identifiable genetic information (such as information about family health history, or a child’s health conditions) are not collected by this plan.<br><br>Your health information will not be sold, exchanged, transferred, or otherwise disclosed except to the extent permitted by law to carry out specific activities related to the wellness program, and you will not be asked or required to waive the confidentiality of your health information as a condition of participating in the wellness program or receiving an incentive. Anyone who receives your information for purposes of providing you services as part of the wellness program will abide by the same confidentiality requirements. The personally identifiable health information that is received will only be used in order to provide you with services under the wellness program.<br><br>In addition, all medical information obtained through the wellness program will be maintained separate from your personnel records, and no information you provide as part of the wellness program will be used in making any employment decision.  Although no one can prevent all cyber-attacks, Cigna has an information security program consisting of people, process, and technology – including encryption and monitoring tools designed to protect electronic information. We maintain safeguards intended to protect the security of your information.  In the event a data breach, as defined by law, occurs involving information you provide in connection with the wellness program, we will notify you as required by law.<br><br>You may not be discriminated against in employment because of the medical information you provide as part of participating in the wellness program, nor may you be subjected to retaliation if you choose not to participate.<br><br>If you have questions or concerns, or need additional information regarding your employer-sponsored wellness program, or about protections against discrimination and retaliation, please contact your Plan Administrator or Employer.",
+            "buttonAccept": "I Agree",
+            "buttonDecline": "No Thanks"
+        },
+        "demographics": {
+            "title": "Welcome, {{name}}!",
+            "reason": {
+                "title": "Why we ask?",
+                "description": "Gender, race and age can contribute to your overall health and health risks.  Your answers will help us create your individual wellness score and health report."
+            },
+            "gender": {
+                "question": "What is your gender?",
+                "options": {
+                    "male": "MALE",
+                    "female": "FEMALE"
+                },
+                "pregnancy": {
+                    "question": "Are you pregnant?",
+                    "true": "YES",
+                    "false": "NO \u00A0",
+                    "reason": {
+                        "title": "",
+                        "description": "Be sure to complete the questionnaire based on your health condition and lifestyle before pregnancy."
+                    }
+                }
+            },
+            "race": {
+                "question": "What is your race?",
+                "placeholder": "Select your race",
+                "textOnlyQuestion": "Select your race",
+                "options": {
+                    "x": "Select your race",
+                    "w": "White",
+                    "b": "African American/ Black (non-Hispanic origin)",
+                    "h": "Hispanic",
+                    "a": "Asian or Pacific Islander",
+                    "n": "American Indian/ Alaskan Native",
+                    "o": "Other",
+                    "p": "Prefer not to disclose"
+                }
+            },
+            "dateOfBirth": {
+                "question": "What is your date of birth?",
+                "month": "MONTH",
+                "day": "DAY",
+                "year": "YEAR",
+                "errorMessages": {
+                    "invalid": "Please enter a valid date.",
+                    "month": "Enter a month between 1-12.",
+                    "day": "Enter a valid day between 1-31.",
+                    "year": "Enter a valid 4-digit year. You must be age 18 or over to take the assessment."
+                }
+            }
+
+        },
+        "choosepath": {
+            "title": "Welcome, {{name}}!",
+            "gamedesc": "Are you ready to have fun while learning where your health stands today? Our animated adventure will take you on twists and turns through different health categories. At the end you’ll unlock your wellness score and gain valuable health tips. Only you hold the key to discovering your health potential.",
+            "gamebutton": "LET'S PLAY!",
+            "modaltitle": "Choose your path.",
+            "modaldesc": "You may prefer a more traditional approach to the assessment -- same questions, but less graphics and game animation. Not a problem, we have a version for you. This version is also best for an IE 8 browser or older.",
+            "traditionalbutton": "TRADITIONAL APPROACH",
+            "animationbutton": "FUN ANIMATION",
+            "altbutton": "I'D LIKE A MORE TRADITIONAL APPROACH"
+        },
+        "gamepieces": {
+            "title": "Welcome, {{name}}!",
+            "instruction": "Select a gamepiece below to track your progress through the game."
+
+        },
+        "step": "Step {{number}} of {{total}}"
+    },
+    "home": {
+        "welcome": "Welcome back, {{name}}!",
+        "wellnessScore": "WELLNESS SCORE",
+        "offlineDescription":"You submitted your completed assessment on ",
+        "offlineDescription2": "Check back soon to get your score and report.",
+        "completedOn": "Your last Wellness Score completed {{date}}",
+        "unlockScore" : "You'll unlock your wellness score once you complete the assessment.",
+        "progress": "PROGRESS",
+        "history": "LAST 5 REPORTS",
+        "report": "CURRENT REPORT",
+        "inProgress": "Your assessment is {{percent}}% complete.  Come back by {{date}} to finish.",
+        "retakeHeader" : "You can retake your assessment at any time and track your progress.",
+        "offlineHeader" : "Your current assessment is complete as of ",
+        "experienceNotComplete" : "Your assessment is almost complete. Come back by {{date}} to finish",
+        "retakeNoCompletedCategories": "You have started your assessment. Come back by {{date}} to finish",
+        "personalNotComplete" : "Complete the Personal Information category to update.",
+        "returnToSurvey": "COMPLETE MY ASSESSMENT",
+        "retake": "RETAKE MY ASSESSMENT",
+        "healthSnapshot": "PERSONAL INFORMATION",
+        "updateBiometrics": "These are the answers from your current assessment.",
+        "previousAssessment" : "These are the answers from your last completed assessment",
+        "biometrics": {
+            "cancel": "Cancel",
+            "edit": "Edit",
+            "save": "Save & Resubmit",
+            "height": "Height",
+            "weight": "Weight",
+            "waist": "Waist",
+            "bp": "Blood Pressure",
+            "totalCholesterol": "Total Cholesterol",
+            "hdlCholesterol": "HDL Cholesterol",
+            "mg": "mg",
+            "lbs": "lbs",
+            "in": "in"
+        },
+        "bioModal" : {
+          "title" : "Update your biometrics",
+          "description" : "You'll get a new Wellness Score and confirmation score with today's date.",
+          "cancel" : "No",
+          "accept" : "Yes, update"
+        },
+        "historyModal": {
+            "myHistory": "{{name}}'s history",
+            "date": "Date",
+            "confirmation": "Confirmation #",
+            "emailConfirmation": "EMAIL CONFIRMATION #",
+            "score": "Score",
+            "print" : "PRINT",
+            "report" : "VIEW REPORT",
+            "actions": "Actions",
+            "pending": "We’re processing your score and confirmation #."
+
+        },
+        "retakeModal": {
+            "title": "Are you sure?",
+            "description": "If you retake the assessment, you'll need to complete each of the categories again to get a new wellness score.",
+            "accept": "YES, CONTINUE",
+            "cancel": "NO THANKS"
+        }
+    },
+    "summary": {
+        "results": {
+            "title": "{{name}}'s Wellness",
+            "yours": "YOUR SCORE: ",
+            "peer": "PEER SCORE: ",
+            "welcome": "Hi {{name}},",
+            "sentence1": "Congratulations on completing your health assessment! Here is your wellness report that contains quick tips to help keep you on your path to better health.",
+            "sentence2": "How can you build on your healthy foundation? Based on your answers, we have a few quick tips to help keep you sprinting forward with healthy habits. Check ‘em out and see if you can put them into practice.",
+            "sentence3": "Super! You’ve taken the first step to creating a healthier, happier life.",
+            "sentence4": "How can you build a healthy foundation? Based on your answers, we have a few quick tips to help you stay on track with the healthy habits you have today and create new ones for tomorrow. Check ‘em out and see if you can put them into practice.",
+            "workOn": "AREAS TO WORK ON NOW",
+            "strengths": "CATER TO YOUR STRENGTHS",
+            "continue": "EXIT",
+            "printConfirmation": "PRINT CONFIRMATION",
+            "print": "PRINT REPORT",
+            "email": {
+               "emailTitle" :"EMAIL CONFIRMATION #",
+               "emailHeader" :"EMAIL CONFIRMATION",
+               "emailplaceHolderText":"Enter email address",
+               "done" : "DONE",
+               "thankyou" : "THANK YOU!",
+               "emailText" : "We will send your confirmation email shortly",
+               "emailErrorDescription":"Please enter a valid email address, something like name@mail.com.",
+               "emailValidationServiceErrorMsg" : {
+                   "msg1" : "We don’t recognize ",
+                   "msg2" : "Is this email correct?"
+
+               } ,
+               "sendEmailTitle" :"SEND CONFIRMATION",
+               "emailPrimaryDescription" :"Enter the email address where you'd like this sent",
+               "emailDescription" :"Select the email address where you'd like this sent",
+               "newEmailDescription" :"Or enter another email address where you'd like this sent",
+                "error":{
+                    "message":"An error occurred. Please try again later."
+                }
+            },
+            "link": "MORE",
+            "modalTitle" : "Your Goal: ",
+            "yourConfirmation": "Your Confirmation Number is: ",
+            "preventive": "TAKING PREVENTIVE CARE",
+            "men": {
+                "topicTitle": "PREVENTIVE CARE FOR MEN",
+                "topicDetails": "Getting the right preventive care services at the right time can help you stay healthy.",
+                "topicBodyHeader": "These are the preventive care services for adult men as defined under the Patient Protection and Affordability Care Act (PPACA):",
+                "screenings": "Screenings:",
+                "screeningsList": {
+                    "0": "Blood pressure",
+                    "1": "Type 2 Diabetes (for men with high blood pressure)",
+                    "2": "Prostate cancer (PSA)",
+                    "3": "Cholesterol (for men age 35 and older)",
+                    "4": "HIV, sexually transmitted infection (STI) (for adults at higher risk)",
+                    "5": "Abdominal aortic aneurysm (one-time screening for men age 65 to 75 who have smoked)",
+                    "6": "Colorectal cancer including fecal occult blood testing, sigmoidoscopy or colonoscopy (for men age 50 to 75)"
+                }
+            },
+            "women": {
+                "topicTitle": "PREVENTIVE CARE FOR WOMEN",
+                "topicDetails": "Getting the right preventive care services at the right time can help you stay healthy.",
+                "topicBodyHeader": "These are the preventive care services for adult women as defined under the Patient Protection and Affordability Care Act (PPACA):",
+                "screenings": "Screenings:",
+                "screeningsList": {
+                    "0": "Blood pressure",
+                    "1": "Type 2 Diabetes (for women with high blood pressure)",
+                    "2": "HIV, sexually transmitted infection (STI) (for adults at higher risk)",
+                    "3": "Chlamydia infection (for sexually active women age 24 and younger and other women at high risk)",
+                    "4": "Gonorrhea and syphilis (for sexually active women at higher risk)",
+                    "5": "Cholesterol (for women age 45 and older)",
+                    "6": "Colorectal cancer including fecal occult blood testing, sigmoidoscopy or colonoscopy (for women age 50 to 75)",
+                    "7": "Breast cancer mammography every 1 to 2 years for women over age 40",
+                    "8": "Breast cancer chemoprevention counseling (for women at high risk for breast cancer)",
+                    "9": "Cervical cancer pap test",
+                    "10": "Osteoporosis (for women age 60 and older, depending on risk factors)"
+                },
+                "pregnant": "For Pregnant Women:",
+                "pregnantList": {
+                    "0": "Folic acid supplements for women who may be pregnant",
+                    "1": "Anemia screening for iron deficiency",
+                    "2": "Tobacco cessation counseling for all pregnant women who smoke",
+                    "3": "Syphilis screening for all pregnant women",
+                    "4": "Hepatitis B screening during the first prenatal visit",
+                    "5": "Rh incompatibility blood type testing at first prenatal visit and at 24-28 weeks",
+                    "6": "Urinary tract infection screening at 12 to 16 weeks",
+                    "7": "Breastfeeding education to promote breastfeeding"
+                }
+            },
+            "counseling": "Health Counseling:",
+            "counseling1": "Doctors are encouraged to counsel patients about these health issues and refer them to appropriate resources as needed.",
+            "counselingList": {
+                "0": "Healthy diet",
+                "1": "Weight loss",
+                "2": "Tobacco use",
+                "3": "Alcohol misuse",
+                "4": "Depression",
+                "5": "Prevention of sexually transmitted infections (STI’s)",
+                "6": "Use of aspirin to prevent cardiovascular disease",
+                "7": "BRCA counseling about genetic testing for women at higher risk"
+            },
+            "immunizations": "Immunizations:",
+            "immunizationsList": {
+                "0": "Hepatitis A and B",
+                "1": "Herpes Zoster",
+                "2": "Human Papillomavirus",
+                "3": "Influenza",
+                "4": "Measles, Mumps, Rubella",
+                "5": "Meningococcal",
+                "6": "Pneumococcal (pneumonia)",
+                "7": "Tetanus, Diphtheria, Pertussis",
+                "8": "Varicella (Chicken Pox)"
+            },
+            "resources": "You can find information about a specific health topic at these websites:",
+            "resourceList": {
+                "name0": "American Dental Association",
+                "phone0": "312-440-2500",
+                "url0": "www.ada.org",
+                "name1": "American Heart Association",
+                "phone1": "800-AHA-USA-1 (800-242-8721)",
+                "url1": "www.heart.org",
+                "name2": "American Diabetes Association",
+                "phone2": "800-DIABETES (800-342-2383)",
+                "url2": "www.diabetes.org",
+                "name3": "National Cancer Institute",
+                "phone3": "800-422-6237",
+                "url3": "www.cancer.gov",
+                "name4": "National Institute of Mental Health",
+                "phone4": "866-615-6464",
+                "url4": "www.nimh.nih.gov",
+                "name5": "Centers for Disease Control & Prevention",
+                "phone5": "800-CDC-INFO (800-232-4636)",
+                "url5": "www.cdc.gov"
+            },
+            "pcDate" : "2016-06-24T04:00:00.000Z"
+        }
+    },
+    "survey": {
+        "sectionEnd": {
+            "header": "Congratulations, {{firstName}}",
+            "subHeader": "You've completed the ",
+            "subHeader2": "You are almost finished with your journey. Just one final question and you'll get your wellness score.",
+            "subHeader3": " category",
+            "button": "Let's move on to the next category",
+            "button2": "Let's move to the final category",
+            "button3": "Let's return to the gameboard",
+            "button4": "Let's do this",
+            "textBlocks": {
+                "0":"You're well on your way to completing your journey to better health and unlocking your wellness score. You're {{progress}}% done!",
+                "1":"You selected 'I don't know' for your",
+                "11": ". You will still be able to complete your assessment and get your score.  However, we encourage you to get this important information and come back within 30 days to update your assessment.",
+                "2":"Remember - you can come back within 30 days and simply update your weight, blood pressure and cholesterol information and get a new score without having to retake the entire assessment.",
+                "3":"From the gameboard you can go back to a category you have already completed and check your answers or select your final category.",
+                "4":"You selected 'I don't know' for",
+                "44":". You will still be able to complete your assessment and get your score.  However, we encourage you to get this important information."
+            },
+            "bloodPressure": "blood pressure",
+            "cholesterolLevel": "cholesterol level",
+            "ampersandSym": " & ",
+            "orSym": "OR"
+        },
+        "gameboard": {
+            "dice": {
+                "title": "You rolled {{category}}!"
+            },
+            "start": {
+                "title": "Ready to play?",
+                "instruction":"To begin your assessment, drag your game piece to a category on the map. Feeling lucky? Click \"Surprise Me\" at the bottom left and we'll choose a random category for you."
+            },
+            "oneLeft": {
+                "title": "You're almost finished!",
+                "instruction": "To finish, drag your game piece to the remaining open category on the map. Feel free to go back to any category you've already completed and check your answers."
+            },
+            "twoOrMoreLeft": {
+                "title": "You're doing great!",
+                "instruction": "To continue, drag your game piece to a new category on the map. Feel free to go back to any category you've completed and check your answers. Feeling lucky? Click \"Surprise Me\" at the bottom left and we'll choose a random category for you."
+            },
+            "partialComplete": {
+                "title": "You're still working in {{category}} category",
+                "instruction": "Just a few more questions to answer in this category and you'll be able to move on to another category. Let's finish {{category}}"
+            },
+            "Complete": {
+                "title": "You did it!",
+                "instruction": "You've finished all questions-- well done!  Feel free to go back to any category and check your answers. Or, drag your game piece to the trophy in the center and reap your reward - your wellness score!"
+            },
+            "categories":{
+                "personal": {
+                    "line1": "PERSONAL",
+                    "line2": "INFORMATION"
+                },
+                "lifestyle": {
+                    "line1": "LIFESTYLE",
+                    "line2": ""
+                },
+                "workLife" : {
+                    "line1": "LIFE",
+                    "line2": "& WORK"
+                },
+                "screenings": {
+                    "line1": "HEALTH",
+                    "line2": "SCREENINGS"
+                },
+                "medical": {
+                    "line1": "MEDICAL",
+                    "line2": "HISTORY"
+                }
+            }
+        },
+        "personal": {
+            "sectionStart": {
+                "instruction": "Knowing your key health numbers can help you stay on the path to a healthy life.",
+                "infoCards": {
+                    "bloodPressure": "You will want to have this information handy:   height, weight, waist size, blood pressure and cholesterol.   Remember, you can check with your doctor and make updates within 30 days without having to retake the assessment.",
+                    "cholesterol": "If you see some of your health numbers already added, it's because we've received this information from on-site screenings or laboratories and added it for you, just to be helpful."
+                }
+            },
+            "phone": {
+                "areaCode":"AREA CODE",
+                "exchange":"",
+                "identifier":"",
+                "question": "What is your primary phone number?",
+                "instruction": "Use the keypad on the phone below to enter your phone number.",
+                "textOnlyInstruction": "Enter you phone number",
+                "placeholderAreaCode": "555",
+                "placeholderExchange": "555",
+                "placeholderIdentifier": "5555",
+                "reason": {
+                    "linkText": "Why we ask?",
+                    "title": "Why we ask?",
+                    "description": "We may have programs that are available to help you better manage your health.  The number you provide will only be used to invite you to join us."
+                },
+                "errorMessages": {
+                    "threeDigits": "Enter 3 numbers.",
+                    "fourDigits": "Enter 4 numbers."
+                }
+            },
+            "height": {
+                "question": "What is your height? (without shoes)",
+                "instruction": "Drag the pencil to your height.",
+                "textOnlyInstruction": "Enter your height in feet and inches",
+                "feet": "FEET",
+                "inches": "INCHES",
+                "reason": {
+                    "title": "Enter your height in feet and inches.",
+                    "linkText": "OR click here to use the keyboard to enter your answer."
+                },
+                "errorMessages": {
+                    "feet": "Enter a number between 2-8. Do not use decimals or characters.",
+                    "inches": "Enter a number between 0-11. Do not use decimals or characters."
+                }
+            },
+            "weight": {
+                "question": "What is your weight? (without shoes)",
+                "fieldInset": "LBS",
+                "errorMessages": {
+                    "range": "Enter a number between 29-899."
+                }
+            },
+            "weightPlan": {
+                "question": "In the next 6 months, are you planning to lose weight?",
+                "options": {
+                    "yes": "Yes",
+                    "no": "No",
+                    "uncertain": "I DON'T KNOW",
+                    "na": "Not Needed"
+                }
+            },
+            "waist": {
+                "question": "What is your waist size?",
+                "fieldInset": "inches",
+                "reason": {
+                    "linkText": "How to measure your waist?",
+                    "title": "How to measure your waist?",
+                    "description": "Place a tape measure around your body at the top of your hip bone. This is usually at the level of your belly button."
+                },
+                "errorMessages": {
+                    "range": "Enter a number between 5-99."
+                }
+            },
+            "bloodPressure": {
+                "question": "What is your blood pressure?",
+                "instruction": "Answer in digits: Systolic 50-299 and Diastolic 20-199",
+                "fieldInsetSystolic": "Systolic (top number)",
+                "fieldInsetDiastolic": "Diastolic (bottom number)",
+                "errorMessages": {
+                    "systolic": "Enter a number between 50-299. Do not use decimals or characters.",
+                    "diastolic": "Enter a number between 20-199. Do not use decimals or characters.",
+                    "systolicGreaterDiastolic": "Your diastolic (bottom) number must be less than your systolic (top) number."
+                }
+            },
+            "bloodPressurePlan": {
+                "question": "In the next 6 months, are you planning to lower your blood pressure?",
+                "options": {
+                    "yes": "Yes",
+                    "no": "No",
+                    "uncertain": "I Don't Know",
+                    "na": "Not Needed"
+                }
+            },
+            "cholesterol": {
+                "question": "What is your total cholesterol level?",
+                "instruction": "Answer in digits: 20-499",
+                "fieldInset": "MG/DL",
+                "options": {
+                    "uncertain": "I Don't Know"
+                },
+                "errorMessages": {
+                    "range": "Enter a number between 20-499. Do not use decimals or characters."
+                }
+            },
+            "hdlCholesterol": {
+                "question": "What is your HDL cholesterol level?",
+                "instruction": "This is sometimes called the \"good cholesterol\". Answer in digits: 10-199",
+                "fieldInset": "MG/DL",
+                "or": "OR",
+                "placeholderSelect": "Select",
+                "options": {
+                    "good": "Good/Normal",
+                    "bad": "Bad",
+                    "i_dont_know": "I Don't Know"
+                },
+                "errorMessages": {
+                    "range": "Enter a number between 10-199. Do not use decimals or characters."
+                }
+
+            },
+            "cholesterolPlan": {
+                "question": "In the next 6 months, are you planning to lower your total cholesterol level?",
+                "options": {
+                    "yes": "Yes",
+                    "no": "No",
+                    "uncertain": "I Don't Know",
+                    "na": "Not Needed"
+                }
+            },
+            "relationshipStatus": {
+                "question": "What is your relationship status?",
+                "options": {
+                    "single": "Single",
+                    "separated": "Separated",
+                    "divorced": "Divorced",
+                    "married": "Married / Committed relationship",
+                    "widowed": "Widowed",
+                    "other": "Other"
+                }
+            },
+            "highestEducationLevel": {
+                "question": "What is the highest level of education you have achieved?",
+                "options": {
+                    "less": "Some high school or less",
+                    "highSchool": "High school graduate",
+                    "someCollege": "Some college",
+                    "collegeGraduate": "College graduate",
+                    "postGraduate": "Post graduate or professional degree"
+                }
+            },
+            "householdIncome": {
+                "question": "What is your expected household income this year?",
+                "options": {
+                    "lessThan35": "Less than $35,000",
+                    "35to49": "$35,000-$49,000",
+                    "50to74": "$50,000-$74,999",
+                    "75to99": "$75,000-$99,000",
+                    "100orMore": "$100,000 or more"
+                }
+            }
+        },
+        "lifestyle": {
+            "sectionStart": {
+                "instruction": "Your daily habits tell us a lot about your health both present and future.",
+                "infoCards": {
+                    "eatingHabits": " In this section, we'll ask you about how you eat, exercise and other routines that contribute to your well being."
+                }
+            },
+            "welcome": {
+                "description": "Your daily habits tell us a lot about your health both present and future.",
+                "info": "Some info you'll need",
+                "info1": "In this section, we'll ask you about how you eat, exercise and other routines that contribute to your well being.",
+                "info2": "Think about your eating habits. In fact, it may help to keep a food diary for a few days to help you pay attention to how you eat. Learn about the types of exercise - vigorous and moderate - and how to tell them apart."
+            },
+            "smoking": {
+                "question": "How would you describe your cigarette smoking habits?",
+                "options": {
+                    "neverSmoke": "Never smoked",
+                    "usedToSmoke": "Used to smoke",
+                    "stillSmoke": "Still smoke"
+                }
+            },
+            "cigarettes": {
+                "question": "How many cigarettes do you smoke per day?",
+                "fieldInset": "CIGARETTES",
+                "errorMessages": {
+                    "range": "Enter a number between 0-99. Do not use decimals or characters."
+                }
+            },
+            "smokeFree": {
+                "question": "How many years has it been since you smoked cigarettes on a fairly regular basis?",
+                "fieldInset": "YEARS",
+                "errorMessages": {
+                    "range": "Enter a number between 0-99. Do not use decimals or characters."
+                }
+            },
+            "cigarettesPreSmokeFree": {
+                "question": "Before you quit, how many cigarettes did you smoke on a typical day?",
+                "options": {
+                    "lessThan9": "Less than 9",
+                    "10to15": "10-15",
+                    "16to19": "16-19",
+                    "20p": "20+"
+                }
+            },
+            "smokePipe": {
+                "question": "Do you smoke a pipe?",
+                "options": {
+                    "yes": "Yes",
+                    "no": "No"
+                }
+            },
+            "smokeCigars": {
+                "question": "Do you smoke cigars?",
+                "options": {
+                    "yes": "Yes",
+                    "no": "No"
+                }
+            },
+            "smokelessTobacco": {
+                "question": "Do you use smokeless tobacco?",
+                "options": {
+                    "yes": "Yes",
+                    "no": "No"
+                }
+            },
+            "smokingPlan": {
+                "question": "In the next 6 months, are you planning to quit or cut down on tobacco use?",
+                "options": {
+                    "yes": "Yes",
+                    "no": "No",
+                    "uncertain": "I Don't Know",
+                    "na": "Not Needed"
+                }
+            },
+            "drugUse": {
+                "question": "How often do you use drugs or medication (including prescription drugs) that affect your mood or help you to relax?",
+                "options": {
+                    "almostEverDay": "Almost every day",
+                    "sometimes": "Sometimes",
+                    "rarelyOrNever": "Rarely or never"
+                }
+            },
+            "alcoholUse": {
+                "question": "How many drinks of alcoholic beverages do you have in a typical week?",
+                "fieldInset": "DRINKS",
+                "reason": {
+                    "title": "What is one drink?",
+                    "linkText": "What is one drink?",
+                    "description": "One alcoholic drink equals 12 ounces of beer, 1 glass (5 ounces) of wine, 1 measure of liquor (1.5 ounces of 80 proof)"
+                },
+                "errorMessages": {
+                    "range": "Enter a number between 0-99. Do not use decimals or characters."
+                }
+            },
+            "drunkDriving": {
+                "question": "How many times in the last month did you drive or ride when a driver had perhaps too much to drink?",
+                "fieldInset": "TIMES",
+                "errorMessages": {
+                    "range": "Enter a number between 0-99. Do not use decimals or characters."
+                }
+            },
+            "alcoholPlan": {
+                "question": "In the next 6 months, are you planning to reduce alcohol use?",
+                "options": {
+                    "yes": "Yes",
+                    "no": "No",
+                    "uncertain": "I Don't Know",
+                    "na": "Not Needed"
+                }
+            },
+            "seatBelt": {
+                "question": "How often do you use a seat belt?",
+                "options": {
+                    "always": "Always",
+                    "usually": "Usually",
+                    "sometimes": "Sometimes",
+                    "never": "Never"
+                }
+            },
+            "flossTeeth": {
+                "question": "How often do you floss your teeth?",
+                "instruction": "Pull out the floss to your desired answer.",
+                "options": {
+                    "everyDay": "Every day",
+                    "almostEveryDay": "Almost every day",
+                    "sometimes": "Sometimes",
+                    "rarelyOrNever": "Rarely or never",
+                    "doesNotApply": "Does not apply"
+                },
+                "reason": {
+                    "title": "How often do you floss your teeth?",
+                    "linkText": "OR click here to use the keyboard to enter your answer."
+                }
+            },
+            "sunScreen": {
+                "question": "When in the sun, do you protect your skin by using a sunscreen at SPF 15 or above or by wearing adequate clothing?",
+                "instruction": "Drag the sun to your desired answer.",
+                "options": {
+                    "rarelyOrNever": "Rarely or never",
+                    "someOfTheTime": "Some of the time",
+                    "mostOfTheTime": "Most of the time",
+                    "allOfTheTime": "All of the time"
+                },
+                "reason": {
+                    "title": "When in the sun, do you protect your skin by using a sunscreen at SPF 15 or above or by wearing adequate clothing?",
+                    "linkText": "OR click here to use the keyboard to enter your answer."
+                }
+            },
+            "fiberIntake": {
+                "question": "How many servings of food do you eat that are high in fiber, such as whole grain bread, high fiber cereal, fresh fruit or vegetables?",
+                "options": {
+                    "rarelyOrNever": "Rarely or never",
+                    "1to2servings": "1-2 servings a day",
+                    "3to4servings": "3-4 servings a day",
+                    "5to6servings": "5-6 servings a day"
+                },
+                "reason": {
+                    "title": "What is a serving?",
+                    "linkText": "What is a serving?",
+                    "description1": "A serving of fiber can be found in",
+                    "description2":"Grains: 1 slice of bread, 1 ounce of ready-to-eat cereal, rice or pasta (about the size of a baseball)",
+                    "description3":" Vegetables: 1 cup of raw, leafy vegetables (about the size of a small fist), 1/2 cup of other vegetables or 1/2 cup of vegetable juice",
+                    "description4":"Fruits: 1 medium fruit (about the size of a baseball), 1/2 cup chopped, cooked or canned fruit or 1/2 cup of fruit juice",
+                    "description": "A serving of fiber can be found in<ul><li>Grains: 1 slice of bread, 1 ounce of ready-to-eat cereal, rice or pasta (about the size of a baseball)</li><li> Vegetables: 1 cup of raw, leafy vegetables (about the size of a small fist), 1/2 cup of other vegetables or 1/2 cup of vegetable juice </li><li> Fruits: 1 medium fruit (about the size of a baseball), 1/2 cup chopped, cooked or canned fruit or 1/2 cup of fruit juice.</li></ul>"
+                }
+            },
+            "cholesterolIntake": {
+                "question": "How many servings of food do you eat that are high in cholesterol or fat such as fatty meat, cheese, fried foods or eggs?",
+                "options": {
+                    "5to6servings": "5-6 servings a day",
+                    "3to4servings": "3-4 servings a day",
+                    "1to2servings": "1-2 servings a day",
+                    "rarelyOrNever": "Rarely or never"
+                },
+                "reason": {
+                    "title": "What is a serving?",
+                    "linkText": "What is a serving?",
+                    "description1": "Fats aren't created equal, and a certain amount of fat is necessary in your nutrition. Some examples of high fat and/or cholesterol servings",
+                    "description2":"whole or 2% dairy products (such as 8 ounces of milk.)",
+                    "description3":"foods made with real cream, butter and cheese",
+                    "description4":"2-3 ounces of fatty beef, lamb, pork or poultry (with the skin on.)",
+                    "description5":"baked goods such as pastries, biscuits, muffins, cakes, pie crusts, donuts and cookies.",
+                    "description6":"fried foods such as french fries, fried chicken, breaded nuggets and breaded fish",
+                    "description7":"snack foods such as crackers and chips.",
+                    "description": "Fats aren't created equal, and a certain amount of fat is necessary in your nutrition. Some examples of high fat and/or cholesterol servings<ul><li>whole or 2% dairy products (such as 8 ounces of milk.)</li><li>foods made with real cream, butter and cheese</li><li>2-3 ounces of fatty beef, lamb, pork or poultry (with the skin on.)</li><li>baked goods such as pastries, biscuits, muffins, cakes, pie crusts, donuts and cookies.</li><li>fried foods such as french fries, fried chicken, breaded nuggets and breaded fish</li><li>snack foods such as crackers and chips.</li></ul>"
+                }
+            },
+            "cholesterolIntakePlan": {
+                "question": "In the next 6 months, are you planning to reduce fat/cholesterol intake?",
+                "options": {
+                    "yes": "Yes",
+                    "no": "No",
+                    "uncertain": "I Don't Know",
+                    "na":"Not Needed"
+                }
+            },
+            "exercise": {
+                "question": "How often do you do vigorous physical activity for at least 20 minutes?",
+                "options": {
+                    "rarelyOrNever": "Rarely or Never",
+                    "1to2TimesPerWeek": "1-2 times per week",
+                    "3TimesPerWeek": "3 times per week",
+                    "4OrMoreTimesPerWeek": "4 or more times per week"
+                },
+                "reason": {
+                    "title": "What is vigorous exercise?",
+                    "linkText": "What is vigorous exercise?",
+                    "description1": "Take the talk test. If your heart and breathing rate are up so high that it's difficult to talk, then congrats. You're exercising vigorously!",
+                    "description2":"Some examples of vigorous exercise: ",
+                    "description3":"Running",
+                    "description4":"Jogging",
+                    "description5":"Fast bicycling",
+                    "description6":"Hiking",
+                    "description7":"Competitive sports such as soccer, basketball and hockey.",
+                    "description":"Take the talk test. If your heart and breathing rate are up so high that it's difficult to talk, then congrats. You're exercising vigorously!<br> Some examples of vigorous exercise: <ul><li>Running</li><li>Jogging</li><li>Fast bicycling</li><li>Hiking</li><li>Competitive sports such as soccer, basketball and hockey.</li></ul>"
+                }
+            },
+            "exerciseIntensity": {
+                "question": "How often do you do moderate physical activity for 30 minutes or more?",
+                "options": {
+                    "everyDay": "Every day",
+                    "5to6TimesPerWeek": "5 or 6 times per week",
+                    "3to4TimesPerWeek": "3 or 4 times per week",
+                    "2TimesPerWeek": "Twice per week",
+                    "1TimePerWeek": "Once per week",
+                    "none": "None"
+                },
+                "reason": {
+                    "title": "What is moderate physical activity?",
+                    "linkText": "What is moderate physical activity?",
+                    "description1": "Take the talk test. If your heart and breathing rate are up but you can still carry on a conversation, then you're exercising moderately.",
+                    "description2":"Some examples of moderate exercise: ",
+                    "description3":"Brisk walking",
+                    "description4":"Slow cycling",
+                    "description5":"Gardening",
+                    "description6":"Water aerobics",
+                    "description7":"Recreational sports such as bowling, badminton and golf.",
+                    "description": "Take the talk test. If your heart and breathing rate are up but you can still carry on a conversation, then you're exercising moderately. <br>Some examples of moderate exercise: <ul><li>Brisk walking</li><li>Slow cycling</li><li>Gardening</li><li>Water aerobics</li><li>Recreational sports such as bowling, badminton and golf</li></ul>"
+                }
+            },
+            "exercisePlan": {
+                "question": "In the next 6 months, are you planning to increase your physical activity?",
+                "options": {
+                    "yes": "Yes",
+                    "no": "No",
+                    "uncertain": "I Don't Know",
+                    "na": "Not Needed"
+                }
+            },
+            "weightPlan": {
+                "question": "In the next 6 months, are you planning to lose weight?",
+                "options": {
+                    "yes": "yes",
+                    "no": "no",
+                    "uncertain": "I Don't Know",
+                    "na": "Not Needed"
+                }
+            },
+            "overallHealth": {
+                "question": "In the next 6 months, do you plan to take any actions that would help you to enhance your overall health?",
+                "options": {
+                    "yes": "yes",
+                    "no": "no",
+                    "uncertain": "I Don't Know",
+                    "na": "Not Needed"
+                }
+            }
+        },
+        "workLife": {
+            "sectionStart": {
+                "instruction": "Your life and job are both important, and your attitude towards each affects your health.",
+                "infoCards": {
+                    "sickTime": "In this section, we'll ask you about things like your job performance, stress level and attendance."
+                }
+            },
+            "welcome": {
+                "description": "Your life and job are both important, and your attitude towards each affects your health.",
+                "info": "Some info you'll need:",
+                "info1title": "Sick Time Last Year",
+                "info1": "In this section, we'll ask you about things like your job performance, stress level and attendance"
+            },
+            "lifeSatisfaction": {
+                "question": "How satisfied are you with your life?",
+                "options": {
+                    "completelySatisfied": "Completely satisfied",
+                    "mostlySatisfied": "Mostly satisfied",
+                    "partlySatisfied": "Partly satisfied",
+                    "notSatisfied": "Not satisfied"
+                }
+            },
+            "social": {
+                "question": "How strong do you feel your connections are with your family and/or friends?",
+                "options": {
+                    "veryStrong": "Very strong",
+                    "aboutAverage": "About average",
+                    "weakerThanAverage": "Weaker than average",
+                    "notSure": "Not sure"
+                }
+            },
+            "physicalHealth": {
+                "question": "How would you describe your overall physical health?",
+                "instruction": "Choose your answer below.",
+                "options": {
+                    "poor": "POOR",
+                    "fair": "FAIR",
+                    "good": "GOOD",
+                    "veryGood": "GREAT",
+                    "great": "GREAT",
+                    "excellent": "EXCELLENT"
+                },
+                "reason": {
+                    "title": "Describe your overall physical health?",
+                    "linkText": "OR click here to use the keyboard to enter your answer."
+                }
+            },
+            "sleep": {
+                "question": "How many hours do you sleep each night?",
+                "instruction": "Drag the moon to your desired answer",
+                "options": {
+                    "5hoursOrLess": "5 hours or less",
+                    "6hours": "6 hours",
+                    "7hours": "7 hours",
+                    "8hours": "8 hours",
+                    "9hoursOrMore": "9 hours or more"
+                },
+                "reason": {
+                    "title": "How many hours do you sleep each night?",
+                    "linkText": "OR click here to use the keyboard to enter your answer."
+                }
+            },
+            "sleepPlan": {
+                "question": "In the next 6 months, are you planning to improve your sleep habits?",
+                "options": {
+                    "yes": "Yes",
+                    "no": "No",
+                    "uncertain": "I Don't Know",
+                    "na": "Not needed"
+                }
+            },
+            "personalLoss": {
+                "question": "In the past year, have you experienced a personal loss or hardship?",
+                "instruction": "For example:  job loss, disability, divorce, separation, jail time or the death of someone close to you",
+                "options": {
+                    "yesTwoOrMoreEvents": "Yes, two or more",
+                    "yesOneEvent": "Yes, one",
+                    "no": "No"
+                }
+            },
+            "anxietyDepression": {
+                "question": "How often do you feel tense, anxious or depressed?",
+                "options": {
+                    "often": "Often",
+                    "sometimes": "Sometimes",
+                    "rarely": "Rarely",
+                    "never": "Never"
+                }
+            },
+            "stress": {
+                "question": "During the past year, how much effect has stress had on your health?",
+                "options": {
+                    "aLot": "A lot",
+                    "sometimes": "Sometimes",
+                    "hardlyAny": "Hardly any",
+                    "itHasntAffectedItAtAll": "None"
+                }
+            },
+            "stressPlan": {
+                "question": "In the next 6 months, are you planning to cope better with stress?",
+                "options": {
+                    "yes": "Yes",
+                    "no": "No",
+                    "uncertain": "I Don't Know",
+                    "na": "Not needed"
+                }
+            },
+            "employment": {
+                "question": "Are you employed?",
+                "options": {
+                    "yes": "Yes",
+                    "no": "No"
+                }
+            },
+            "missedWork": {
+                "question": "In the past year, how many days of work have you missed due to personal illness?",
+                "options": {
+                    "0days": "0 days",
+                    "1to2days": "1-2 days",
+                    "3to5days": "3-5 days",
+                    "6to10days": "6-10 days",
+                    "11to15days": "11-15 days",
+                    "16daysOrMore": "16 days or more",
+                    "na": "Does not apply"
+                }
+            },
+            "recentProductivity": {
+                "question": "During the past 4 weeks, how often did your health problems impact how much you wanted or needed to get done while at work?",
+                "options": {
+                    "noHealthProblems": "I do not have health problems",
+                    "noneOfTheTime": "None of the time",
+                    "someOfTheTime": "Some of the time",
+                    "mostOfTheTime": "Most of the time",
+                    "allOfTheTime": "All of the time",
+                    "na": "Does not apply"
+                }
+            },
+            "recentMissedWork": {
+                "question": "In the past 4 weeks, how many full or half days of work have you missed due to physical or mental health?",
+                "fieldInset": " ",
+                "errorMessages": {
+                    "range": "Enter a number between 0-28. Do not use decimals or characters."
+                }
+            },
+            "recentJobPerformance": {
+                "question": "In the past 4 weeks, how would you score your ability to carry out your duties at work, using a scale of 0 to 10?",
+                "instruction": "In this case, more is better, 10 means you performed extremely well and 0 means you were not able to carry out your work duties.",
+                "fieldInset": " ",
+                "errorMessages": {
+                    "range": "Enter a number between 0-10. Do not use decimals or characters."
+                }
+            },
+            "recentFamilyIllness": {
+                "question": "Over the past two weeks, how many hours of work did you miss to take care of sick children, parents or other relatives?",
+                "instruction": "This might include taking children to doctor's appointments, staying home with a sick child or parent or calling doctors or health insurance companies",
+                "fieldInset": " ",
+                "errorMessages": {
+                    "range": "Enter a number between 0-99. Do not use decimals or characters."
+                }
+            },
+            "jobSatisfaction": {
+                "question": "How satisfied are you with your job?",
+                "options": {
+                    "completelySatisfied": "Completely satisfied",
+                    "mostlySatisfied": "Mostly satisfied",
+                    "partlySatisfied": "Partly satisfied",
+                    "notSatisfied": "Not satisfied"
+                }
+            }
+        },
+        "medical": {
+            "sectionStart": {
+                "instruction": "The past can determine the present and how you can take care of you health may indicate how well you'll do in the future.",
+                "infoCards": {
+                    "checkWithDoctor": " In this section, we'll ask you about medical conditions you may have now or have had in the past.  If you’re unsure of any answers, check with your doctor."
+                }
+            },
+            "welcome": {
+                "info": "The past can determine the present and how you can take care of you health may indicate how well you'll do in the future.",
+                "info1": " In this section, we'll ask you about medical conditions you may have now or have had in the past.  If you’re unsure of any answers, check with your doctor. It should be clear to you which of these you may have had, but if you're unsure, check with your doctor. Don't worry if you need to stop to check; we'll save your place for you."
+            },
+            "options": {
+                "current": "CURRENT",
+                "past": "PAST",
+                "never": "NEVER"
+            },
+            "checkboxes": {
+                "takingMedication": {
+                    "current": "Taking medication",
+                    "past": "Took medication"
+                },
+                "underMedicalCare": {
+                    "current": "Under medical care",
+                    "past": "Received medical care"
+                },
+                "none": "None",
+                "both": "Both"
+            },
+            "neurological": {
+                "question": "Have you ever had any of these conditions associated with the brain or nervous system?",
+                "items": {
+                    "stroke": "Stroke",
+                    "migraines": "Migraine Headaches"
+                }
+            },
+            "respiratory": {
+                "question": "Have you ever had any of these conditions that affect your breathing?",
+                "items": {
+                    "asthma": "Asthma",
+                    "copd": "COPD (Chronic Bronchitis / Emphysema)",
+                    "copdDescription": "Chronic bronchitis/emphysema"
+                }
+            },
+            "cardiovascular": {
+                "question": "Have you ever had any of these heart conditions?",
+                "items": {
+                    "heartProblems": "Heart Problems",
+                    "highBloodPressure": "High Blood Pressure",
+                    "highCholesterol": "High Cholesterol"
+                }
+            },
+            "endocrine": {
+                "question": "Have you ever had any of these conditions associated with your glands?",
+                "items": {
+                    "diabetes": "Diabetes",
+                    "thyroid": "Thyroid Disease"
+                }
+            },
+            "musculoskeletal": {
+                "question": "Have you ever had any of these muscle & bone conditions?",
+                "items": {
+                    "arthritis": "Arthritis",
+                    "backPain": "Back Pain",
+                    "osteoporosis": "Osteoporosis (bone loss)",
+                    "chronicPain": "Chronic Pain"
+                }
+            },
+            "miscellaneous": {
+                "question": "Have you ever had any of these other conditions?",
+                "items": {
+                    "allergies": "Allergies",
+                    "cancer": "Cancer",
+                    "depression": "Depression",
+                    "heartburnAcidReflux": "Heartburn or Acid Reflux",
+                    "sleepDisorder": "Sleep Disorder",
+                    "other": "Any Other Conditions"
+                }
+            }
+        },
+        "screenings": {
+            "sectionStart": {
+                "instruction": "The past can determine the present, and how you take care of your health may indicate how well you'll do in the future.",
+                "infoCards": {
+                    "checkWithDoctor": "Health screenings can help identify potential health problems before they develop or worsen. Which screenings do you need? It depends on your age, your gender, your family history and whether you have risk factors for certain diseases. We'll ask you how long ago you’ve had your screenings to help us complete your wellness score."
+                }
+            },
+            "welcome": {
+                "info": "The past can determine the present, and how you take care of your health may indicate how well you'll do in the future.",
+                "info1": "In this section, well ask you a couple of questions about medical conditions you may have now or have had in the past, to better understand your condition. If you’re unsure of any answers, check with your doctor. Don’t worry if you need to stop the assessment, we’ll save your place for you. Health screenings can help identify potential health problems before they develop or worsen. Which screenings do you need? It depends on your age, your gender, your family history and whether you have risk factors for certain diseases. We'll ask you how long ago you’ve had your screenings to help us complete your wellness score."
+            },
+            "history": {
+                "question": "When was the last time you had these preventive services or health screenings?",
+                "items": {
+                    "colonoscopy": "Colon Cancer Screen",
+                    "fluShot": "Flu Shot",
+                    "tetanusShot": "Tetanus Shot",
+                    "bloodPressureCheck": "Blood Pressure Check",
+                    "cholesterolTest": "Cholesterol Test",
+                    "dentalExam": "Dental Exam",
+                    "papTest": "Pap Test",
+                    "mammogram": "Mammogram"
+                },
+                "reason": {
+                    "colonoscopy": "When was the last time you had a colon cancer screen (colonoscopy)?",
+                    "fluShot": "When was the last time you had a flu shot?",
+                    "tetanusShot": "When was the last time you had a tetanus shot?",
+                    "bloodPressureCheck": "When was the last time you had a blood pressure check?",
+                    "cholesterolTest": "When was the last time you had a cholesterol test",
+                    "dentalExam": "When was the last time you had a dental exam?",
+                    "papTest": "When was the last time you had a pap test?",
+                    "mammogram": "When was the last time you had a mammogram?"
+                },
+                "options": {
+                    "lessThan1Year": "Less than 1 year",
+                    "1to2yearsAgo": "1 to 2 years ago",
+                    "2to3yearsAgo": "2 to 3 years ago",
+                    "3to4yearsAgo": "3 to 4 years ago",
+                    "5to6yearsAgo": "5 to 6 years ago",
+                    "7orMoreYearsAgo": "7 or more years ago",
+                    "never": "Never",
+                    "dontKnow": "I Don't Know",
+                    "doesNotApply":"Does not apply"
+                }
+            },
+            "incidents": {
+                "question": "In the past 12 months, how many times have you:",
+                "items": {
+                    "visitedAPhysician": "Visited a physician's office or clinic",
+                    "goneToAnEmergencyRoom": "Gone to an emergency room",
+                    "stayedOvernightInAHospital": "Stayed overnight in a hospital",
+                    "examinedBreasts": "Examined your breasts for lumps"
+                },
+                "reason": {
+                    "visitedAPhysician": "In the past 12 months, how many times have you visited a physician's office or clinic?",
+                    "goneToAnEmergencyRoom": "In the past 12 months, how many times have you gone to an emergency room?",
+                    "stayedOvernightInAHospital": "In the past 12 months, how many times have you stayed overnight in a hospital?",
+                    "examinedBreasts": "In the past 12 months, how many times have you examined your breasts for lumps?"
+                },
+                "options": {
+                    "zero": "0",
+                    "1to2": "1-2",
+                    "3to5": "3-5",
+                    "6orMore": "6 or more",
+                    "monthly": "Monthly",
+                    "onceEveryFewMonths": "Once Every Few Months",
+                    "rarelyOrNever": "Rarely or Never"
+                }
+            }
+        },
+        "experience": {
+            "language": {
+                "question": "What language do you prefer to speak?",
+                "options": {
+                    "english": "English",
+                    "spanish": "Spanish",
+                    "chinese": "Chinese",
+                    "other": "Other"
+                },
+                "reason": {
+                    "title": "Why we ask?",
+                    "linkText": "Why we ask?",
+                    "description": "By answering this question, we may be able to provide you  with tools and resources in your preferred language."
+                }
+            },
+            "assistance": {
+                "question": "Do you have a  vision and/or hearing impairment (requiring special assistance)?",
+                "options": {
+                    "visual": "Yes, vision only",
+                    "auditory": "Yes, hearing  only",
+                    "both": "Both",
+                    "none": "None"
+                },
+                "reason": {
+                    "title": "Why we ask?",
+                    "linkText": "Why we ask?",
+                    "description": "By answering this question, we may be able to provide you  with tools and resources to support your assistance needs."
+                }
+            },
+            "nalcReward": {
+                "question": "Choose one of the following rewards for completing the Health Risk Assessment",
+                "options": {
+                    "dental": "CignaPlus Savings\u00AE discount dental programs",
+                    "waiver": "Copay Waiver In-Network",
+                    "wearable" : "Wearable activity tracking device"
+                },
+                "notice" : {
+                    "important": "IMPORTANT",
+                    "text": "Once your Health Risk Assessment Reward is selected, it cannot be changed once you leave this page. You must be eligible and must complete the Health Risk Assessment to earn a reward. Only one reward per eligible family member and limited to 2 per enrollment. See NALC HBP official brochure for complete details."
+                }
+            },
+            "careGiver": {
+                "question": "At any time in the last 3 months, have you provided unpaid care to a relative or friend 18 years or older to help them take care of themselves?",
+                "description":"This may include helping with personal needs, household chores or <b>health care tasks</b>. It might be managing a person's finances, taking them to a doctor's appointment, arranging for outside services, or visiting regularly to see how they are doing. This adult need not live with you.",
+                "options": {
+                    "true": "Yes",
+                    "false": "No"
+                }
+            },
+            "easeOfUse": {
+                "question": "Did you find this easy to complete?",
+                "options": {
+                    "true": "Yes",
+                    "false": "No"
+                }
+            }
+        }
+    },
+    "general": {
+        "categories": {
+            "survey:personal": "Personal Information",
+            "survey:lifestyle": "Lifestyle",
+            "survey:workLife": "Life & Work",
+            "survey:medical": "Medical History",
+            "survey:screenings": "Health Screenings",
+            "survey:experience": "Survey Wrap Up"
+        },
+        "navigation": {
+            "jump": "Jump to a category",
+            "unlock": "Finish to unlock score",
+            "skipped": "Skipped Questions",
+            "surprise": "SURPRISE ME",
+            "biometrics": "Edit Biometrics",
+            "textOnly": "Text Only Version"
+        },
+        "alert": "Tip: Hold your tablet horizontally for a better experience.",
+        "timeStampAt":" at ",
+        "buttons": {
+            "buttonNext": "NEXT",
+            "buttonTextEntry": "123",
+            "buttonReasoning": "GOT IT!",
+            "buttonUncertain": "I DON'T KNOW",
+            "buttonLetsGo": "LET'S GO",
+            "letsDoThis": "LET'S DO THIS",
+            "logout": "LOGOUT",
+            "stayLoggedIn": "STAY LOGGED IN",
+            "ok":"OK"
+        },
+        "controls": {
+            "save": "SAVE & EXIT",
+            "skip": "Skip for now",
+            "exit": "EXIT",
+            "help": "HELP",
+            "animation" : "ANIMATION",
+            "traditional" : "TRADITIONAL"
+        },
+        "modals": {
+            "uncertain": {
+                "title": "I DON'T KNOW",
+                "description": "Knowing your key health numbers can help you stay on the path to a healthy life. A visit to your doctor or clinic for a health screening will provide you with this important information. Once you've completed the assessment, you can come back within 30 days and update these numbers. We will give you a new wellness score.",
+                "button": "GOT IT"
+            },
+            "help": {
+                "title": "HELP",
+                "description": "If you need help or have any questions along the way, give us a call at 1-800-569-5242. We're here for you.",
+                "phoneNumber": "",
+                "button": "GOT IT"
+            },
+            "skip": {
+                "title": "Skip Question",
+                "description": "We'll let you skip some of the questions that you might need more time to answer (like this one!). Skipping questions doesn't mean you're done with the assessment, though - you can only collect your incentive once all of the questions are answered.",
+                "buttonSkip": "SKIP QUESTION",
+                "buttonGoBack": "GO BACK AND ANSWER"
+            },
+            "scoreTimeout":{
+                "title": "",
+                "description": "We received your completed assessment on",
+                "description3": "We’re busy working on your score, report and confirmation #, so please check back later."
+            },
+            "exit": {
+                "title": "Are you sure you want to exit?",
+                "description": "Thanks for your time. Remember, you can come back and retake the assessment and track your progress over time.",
+                "buttonExit": "EXIT",
+                "buttonCancel": "CANCEL"
+            },
+            "privacy": {
+                "title": "Do Not Accept Privacy",
+                "description": "You'll need to agree to the terms of the Privacy Agreement to continue taking the assessment.",
+                "buttonYes": "YES, I'll Agree",
+                "buttonNo": "NO, Thanks"
+            },
+            "underage": {
+                "title": "Under 18",
+                "description": "You have specified that you are under 18, this assessment can only be available for individuals over 18 years of age.",
+                "buttonOk": "OK",
+                "buttonCancel": "Cancel"
+            },
+            "retake" : {
+                "description": "We're starting your assessment."
+            },
+            "loadingScore" : {
+                "title": "Calculating Your Score",
+                "description": "Please wait while we calculate your score."
+            },
+            "surveyComplete" : {
+              "title": "Saving your progress"
+            },
+            "error":{
+                "title":"Error",
+                "description":"We had trouble getting your assessment report. Please try again later."
+            },
+            "idle": {
+                "warn": {
+                    "title": "Inactive",
+                    "description": "You have been inactive for 10 minutes and will be logged out soon."
+                },
+                "timeout": {
+                    "title": "Log Out",
+                    "description": "Due to inactivity, you have been automatically logged out."
+                }
+            },
+            "missedQuestion": {
+                "title": "Whoops!",
+                "description": "It seems we missed a question. Just provide an answer and then go through the rest of the category to make sure we have all your responses."
+            }
+        },
+        "sectionStartEnd": {
+            "learnMore": "LEARN MORE",
+            "someInfoYoullNeed": "Some information you will need"
+        }
+    }
+}

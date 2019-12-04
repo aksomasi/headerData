@@ -1,0 +1,10 @@
+<!--<ul>
+  <li *ngFor="let survey of surveyPages">
+    {{survey.surveyPageReferenceId}}
+  </li>
+</ul>-->
+<app-survey-header [question]="currentQuestionName"></app-survey-header>
+
+<app-single-question [currentQuestion]="currentQuestion[0]" (selectableAnswer)="next($event)" *ngIf="currentQuestion?.length === 1"></app-single-question>
+<app-multiple-question [currentQuestion]="currentQuestion" *ngIf="currentQuestion?.length>1"></app-multiple-question>
+<app-survey-footer [dynamic]="selectedIndex" [max]="total" (next)="nextTo()" (prev)="prevTo()"></app-survey-footer>
